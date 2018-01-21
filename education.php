@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Harshil-PC
- * Date: 1/1/2018
- * Time: 8:28 PM
- */
 ?>
 <html>
 <head>
@@ -108,56 +102,76 @@
 
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
                     <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">Education Online</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Toppers provide Online plateform to Check the education</h2></em></h2>
-                        <p class="animate-box" data-animate-effect="fadeInUp"><a href="course.php" class="btn btn-white btn-lg btn-outline">Select course</a></p>
+                        <h1 class="animate-box" data-animate-effect="fadeInUp">TOPPERS ACADAMIC</h1>
+                        <h2 class="animate-box" data-animate-effect="fadeInUp">Glad to announce to our customer <b>TOPPERS ACADAMIC</b>is now in web</h2></em></h2>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div id="gtco-products">
-        <div class="gtco-container">
-            <div class="row animate-box">
-
-            </div>
-            <div class="row animate-box">
-                <div class="owl-carousel owl-carousel-carousel">
-                    <div class="item">
-                        <img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                </div>
-            </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+        <div class="gtco-staff">
+            <img src="images/hairdesign.jpg" >
+            <h3>HAIR</h3>
+            <strong class="role">6 month course</strong>
+            <p>In this corse we have to served all the topic that coverd In subject</p>
+            <ul class="gtco-social-icons">
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-github"></i></a></li>
+            </ul>
         </div>
     </div>
 
-    <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-        <h2>TRAINING INSTITUE</h2>
-        <p>Toppers the family salon and training institute glad to anounce to our customer to show the descripation to all the courses that toppers institute are provide..</p>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+        <div class="gtco-staff">
+            <img src="images/skindesign.jpg">
+            <h3>SKIN</h3>
+            <strong class="role">6 month course</strong>
+            <p>In this corse we have to served all the topic that coverd In subject</p>
+            <ul class="gtco-social-icons">
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-github"></i></a></li>
+            </ul>
+        </div>
     </div>
 
+
+    <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+        <div class="gtco-staff">
+            <img src="images/BEAUTYDESIGN.jpg">
+            <h3>BEAUTY</h3>
+            <strong class="role">6 month course</strong>
+            <p>In this corse we have to served all the topic that coverd In subject</p>
+            <ul class="gtco-social-icons">
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <a href="course.php">Enquiry form</a>
+    </div>
 
 
     <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
             <div class="row row-p	b-md">
-
                 <div class="col-md-4">
                     <div class="gtco-widget">
                         <h3>About Us</h3>
@@ -210,11 +224,16 @@
             </div>
 
         </div>
+
     </footer>
 </div>
+
 <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 </div>
+
+
+
 
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
@@ -233,7 +252,6 @@
 <script src="js/magnific-popup-options.js"></script>
 <!-- Main -->
 <script src="js/main.js"></script>
-
 
 
 

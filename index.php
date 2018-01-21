@@ -29,13 +29,8 @@
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-
-
-
         <!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -71,41 +66,31 @@
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="about.php">About</a></li>
 						<li class="has-dropdown">
-							<a href="services.php">Services</a>
-
-                            <ul class="dropdown">
-								<li><a href="book.php">Hair</a></li>
+							<a href="#">Services</a>
+                                <ul class="dropdown">
+								<li><a href="hair.php">Hair</a></li>
 								<li><a href="book.php">Nail</a></li>
 								<li><a href="book.php">Spa</a></li>
 								<li><a href="book.php">Color</a></li>
 							</ul>
-                            <a href="education.php">Education</a>
 						</li>
+                        <li class="academic">
+                            <a href="education.php">Academic</a>
+                        </li>
 						<li class="has-dropdown">
-							<a href="#">Dropdown</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
+							<a href="#">Gallery</a>
+
 						</li>
 						<li><a href="portfolio.php">Portfolio</a></li>
-
 						<li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
+                        <li><a href="login.php">Login/signup</a></li>
                     </ul>
-
-
 				</div>
 			</div>
-			
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -214,8 +199,8 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Our Latest Works</h2>
-					<p>now you can see our latest work picture...</p>
+					<h2>BOOK AN APPOINTMENT</h2>
+					<p>Glad to annouce all the our customer now you can book an appointment In Web through Internet...</p>
 				</div>
 			</div>
 
@@ -223,18 +208,18 @@
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
-							<a href="#" class="color-1">
+							<a href="hair.php" class="color-1">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>View the Earth from the Outer Space</h2>
+									<span>HAIR</span>
+									<h2>Book all the appointment releted to <b>HAIR</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
 							<a href="#" class="color-2">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Sleeping in the Cold Blue Water</h2>
+									<span>SKIN</span>
+									<h2>Book all the appointment releted to <b>SKIN</b></h2>
 								</div>
 							</a>
 						</li>
@@ -243,16 +228,16 @@
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
 							<a href="#" class="color-3">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Building Builded by Man</h2>
+									<span>BEAUTY</span>
+									<h2>Book all the appointment releted to <b>BEAUTY</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
 							<a href="#" class="color-4">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>The Peaceful Place On Earth</h2>
+									<span>HANDS & FEET</span>
+									<h2>Book all the appointment releted to <b>HANDS & FEET</b></h2>
 								</div>
 							</a>
 						</li>
@@ -260,16 +245,16 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); "> 
 							<a href="#" class="color-5">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>I'm Getting Married</h2>
+									<span>SPA</span>
+									<h2>Book all the apppointment releted to <b>SPA</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
 							<a href="#" class="color-6">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Beautiful Flowers In The Air</h2>
+									<span>NAIL-ART</span>
+									<h2>Book all the appointment releted to <b>NAIL_ART</b></h2>
 								</div>
 							</a>
 						</li>
@@ -412,8 +397,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
-						<small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
+                        <small class="block">&copy; 2018. All Rights Reserved by Toppers Family Salon.</small>
+                        <small class="block">Designed by Vaibhav ,Harshill, Sunil</small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">

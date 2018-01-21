@@ -420,8 +420,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-staff {
   text-align: center;
   margin-bottom: 7em;
-  float: left;
-  width: 100%;
+  float: right;
+  width:100%;
 }
 @media screen and (max-width: 768px) {
   .gtco-staff {
@@ -444,10 +444,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .gtco-staff .role {
-  color: #bfbfbf;
+  color: black;
+  size:20px;
   margin-bottom: 30px;
   font-weight: normal;
-  display: block;
 }
 
 .gtco-social-icons {
@@ -615,7 +615,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 7em 0;
+
   clear: both;
   position: relative;
 }
@@ -717,6 +717,7 @@ form label {
 }
 
 .gtco-heading {
+  padding-top: 50px;
   margin-bottom: 5em;
 }
 .gtco-heading.gtco-heading-sm {
@@ -1683,13 +1684,13 @@ form label {
   background: rgba(55, 75, 84, 0.7);
 }
 #gtco-portfolio-list li a.color-1:hover:before {
-  background: rgba(55, 75, 84, 0);
+  background: url("manhair.jpg");
 }
 #gtco-portfolio-list li a.color-2:before {
   background: rgba(37, 190, 213, 0.7);
 }
 #gtco-portfolio-list li a.color-2:hover:before {
-  background: rgba(37, 190, 213, 0);
+  background: url("skingirl.jpg");
 }
 #gtco-portfolio-list li a.color-3:before {
   background: rgba(239, 172, 147, 0.7);
@@ -2128,3 +2129,12 @@ span.psw {
   to {transform: scale(1)}
 }
 
+.rowrow{
+  padding-left:50px;
+
+
+}
+.btnbtn {
+  margin-top: 350px;
+  padding-right: 150px;
+}
