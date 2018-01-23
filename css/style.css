@@ -420,8 +420,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-staff {
   text-align: center;
   margin-bottom: 7em;
-  float: right;
-  width:100%;
+  float: left;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .gtco-staff {
@@ -444,10 +444,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .gtco-staff .role {
-  color: black;
-  size:20px;
+  color: #bfbfbf;
   margin-bottom: 30px;
   font-weight: normal;
+  display: block;
 }
 
 .gtco-social-icons {
@@ -615,7 +615,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-
+  padding: 7em 0;
   clear: both;
   position: relative;
 }
@@ -717,7 +717,6 @@ form label {
 }
 
 .gtco-heading {
-  padding-top: 50px;
   margin-bottom: 5em;
 }
 .gtco-heading.gtco-heading-sm {
@@ -1683,38 +1682,45 @@ form label {
 #gtco-portfolio-list li a.color-1:before {
   background: rgba(55, 75, 84, 0.7);
 }
-#gtco-portfolio-list li a.color-1:hover:before {
+#gtco-portfolio-list li a.color-1:before {
   background: url("manhair.jpg");
+  background-size: 100%;
 }
 #gtco-portfolio-list li a.color-2:before {
   background: rgba(37, 190, 213, 0.7);
 }
-#gtco-portfolio-list li a.color-2:hover:before {
+#gtco-portfolio-list li a.color-2:before {
   background: url("skingirl.jpg");
-}
+
+  background-size: 100%;}
 #gtco-portfolio-list li a.color-3:before {
   background: rgba(239, 172, 147, 0.7);
 }
-#gtco-portfolio-list li a.color-3:hover:before {
-  background: rgba(239, 172, 147, 0);
+#gtco-portfolio-list li a.color-3:before {
+  background: url("s3.jpg");
+  background-size: 100%;
 }
 #gtco-portfolio-list li a.color-4:before {
   background: rgba(249, 17, 40, 0.7);
 }
-#gtco-portfolio-list li a.color-4:hover:before {
-  background: rgba(249, 17, 40, 0);
+#gtco-portfolio-list li a.color-4:before {
+  background: url("s2.jpg");
+  background-size: 100%;
 }
 #gtco-portfolio-list li a.color-5:before {
-  background: rgba(252, 68, 40, 0.7);
+  background: url("s4.jpg");
+  background-size: 100%;
 }
-#gtco-portfolio-list li a.color-5:hover:before {
-  background: rgba(252, 68, 40, 0);
+#gtco-portfolio-list li a.color-5:before {
+  background: url("s1.jpg");
+  background-size: 100%;
 }
 #gtco-portfolio-list li a.color-6:before {
   background: rgba(98, 177, 215, 0.7);
 }
-#gtco-portfolio-list li a.color-6:hover:before {
-  background: rgba(98, 177, 215, 0);
+#gtco-portfolio-list li a.color-6:before {
+  background: url("s5.jpg");
+  background-size: 100%;
 }
 #gtco-portfolio-list li a .case-studies-summary {
   width: auto;
@@ -2129,12 +2135,3 @@ span.psw {
   to {transform: scale(1)}
 }
 
-.rowrow{
-  padding-left:50px;
-
-
-}
-.btnbtn {
-  margin-top: 350px;
-  padding-right: 150px;
-}
