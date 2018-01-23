@@ -80,15 +80,14 @@
                         <li><a href="about.php">About</a></li>
                         <li class="has-dropdown">
                             <a href="services.php">Services</a>
-
                             <ul class="dropdown">
                                 <li><a href="book.php">Hair</a></li>
                                 <li><a href="book.php">Nail</a></li>
                                 <li><a href="book.php">Spa</a></li>
                                 <li><a href="book.php">Color</a></li>
                             </ul>
-                            <a href="education.php">Education</a>
                         </li>
+                        <li><a href="education.php">Academic</a></li>>
                         <li class="has-dropdown">
                             <a href="#">Dropdown</a>
                             <ul class="dropdown">
@@ -98,23 +97,23 @@
                                 <li><a href="#">jQuery</a></li>
                             </ul>
                         </li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login / signup</a></li>
+                        <li><a href="login.php">Login</a></li>
                     </ul>
+
+
                 </div>
             </div>
 
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover  gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
                     <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">Our Services</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Here now you can booked your services..</Services></h2></em></h2></div>
+
                 </div>
             </div>
         </div>
@@ -127,9 +126,6 @@
             </div>
             <div class="row animate-box">
                 <div class="owl-carousel owl-carousel-carousel">
-                    <div class="item">
-                         <img  src=".jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
                     <div class="item">
                         <img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
                     </div>

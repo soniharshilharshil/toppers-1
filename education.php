@@ -92,15 +92,12 @@
             </div>
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
-                    <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">TOPPERS ACADAMIC</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Glad to announce to our customer <b>TOPPERS ACADAMIC</b>is now in web</h2></em></h2>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -155,7 +152,7 @@
     </div>
 
     <div class="row">
-        <a href="course.php">Enquiry form</a>
+        <a href="course.php"><p class="animate-box" data-animate-effect="fadeInUp"><a href="course.php" class="btn btn-green btn-lg btn-outline">Enquiry form</a></p>
     </div>
 
 

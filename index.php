@@ -146,7 +146,7 @@
 				<div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
 					<div class="feature-inner">
 						<span class="icon">
-							<i class="ti-timer"></i>
+							<i class="ti-shopping-cart"></i>
 						</span>
 						<h3>Product</h3>
 						<p>Click hear to book various products and buy them at our salon.</p>
@@ -214,7 +214,6 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Our Latest Works</h2>
-					<p>now you can see our latest work picture...</p>
 				</div>
 			</div>
 
@@ -292,7 +291,6 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Fun Facts</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 
@@ -346,8 +344,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Products</h2>
-					<p>on this section you can show the product catelog</p>
-				</div>
+					</div>
 			</div>
 			<div class="row animate-box">
 				<div class="owl-carousel owl-carousel-carousel">

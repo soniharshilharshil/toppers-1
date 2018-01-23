@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>The Toppers..!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="gettemplates.co" />
 
@@ -107,20 +106,9 @@
         </div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">About Us</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">About what Toppers Salon is <em>by</em>The toppers..!</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
 	</header>
 
 	<div id="gtco-history" class="gtco-section border-bottom animate-box">
@@ -130,15 +118,6 @@
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>Company History</h2>
 					<p>The Toppers family salon are working in last 2 year in madhapar...with well response to our customers</p>
-				</div>
-			</div>
-
-			<div class="row row-pb-md">
-				<div class="col-md-6">
-					<p></p>
-				</div>
-				<div class="col-md-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores maxime earum sequi explicabo consectetur. Labore, odio enim sequi. Quaerat explicabo modi laboriosam illo tempore, alias magnam non, debitis asperiores minima.</p>
 				</div>
 			</div>
 
