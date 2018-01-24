@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Harshil-PC
- * Date: 1/1/2018
- * Time: 8:28 PM
- */
+
+
 ?>
 <html>
 <title>The Toppers..!</title>
@@ -80,41 +76,29 @@
                         <li><a href="about.php">About</a></li>
                         <li class="has-dropdown">
                             <a href="services.php">Services</a>
+
                             <ul class="dropdown">
                                 <li><a href="book.php">Hair</a></li>
                                 <li><a href="book.php">Nail</a></li>
                                 <li><a href="book.php">Spa</a></li>
                                 <li><a href="book.php">Color</a></li>
                             </ul>
-                        </li>
-                        <li><a href="education.php">Academic</a></li>>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
+                            <a href="education.php">Education</a>
                         </li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><a href="login.php">Login / signup</a></li>
                     </ul>
-
-
                 </div>
             </div>
 
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover  gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
-                    <div class="display-tc">
 
-                </div>
             </div>
         </div>
     </header>
@@ -124,31 +108,67 @@
             <div class="row animate-box">
 
             </div>
-            <div class="row animate-box">
-                <div class="owl-carousel owl-carousel-carousel">
-                    <div class="item">
-                        <img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                </div>
-            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+            <h2>Appointment Form</h2>
         </div>
     </div>
 
 
 
+    <div class="gtco-section ">
+        <div class="gtco-container">
+            <div class="row row-pb-md">
+                <div class="col-md-6 col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                    <form action="selectdatetime.php">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your firstname">
+                            </div>
+
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="email">Email</label>
+                                <input type="text" id="email" class="form-control" placeholder="Your email address">
+                            </div>
+                        </div>
+
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="email">Mobile Number</label>
+                                <input type="text" id="mobno" class="form-control" placeholder="+91">
+                            </div>
+                        </div>
+
+                        <div class="row form-group ">
+                            <div class="col-md-12">
+                                <input type="text" id="service" class="form-control" placeholder="service">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Book" Name="Book" class="btn btn-primary btn-lg">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-5 col-md-push-1 animate-box">
+
+                </div>
 
 
 
 
 
 
-    <footer id="gtco-footer" role="contentinfo">
+
+
+                <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
             <div class="row row-p	b-md">
 
@@ -276,7 +296,6 @@
 <script src="js/magnific-popup-options.js"></script>
 <!-- Main -->
 <script src="js/main.js"></script>
-
 
 
 
