@@ -123,197 +123,199 @@
 			</div>
 		</div>
 	</header>
-	
-	<div class="gtco-section border-bottom">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>What We Offer</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-settings"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Web Development</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-ruler-pencil"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Web Design</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-face-smile"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Customer Support</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-cup"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>User Experience</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-ruler-alt-2"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Pixel Perfect Design</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-desktop"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Creative Themes</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
 
-			</div>
 
-		</div>
-	</div>
-	<div class="gtco-section">
-		<div class="gtco-container">
+        <div class="services">
+            <div class="row MP-zero">
+                <div class="col-md-12 MP-zero">
 
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>More Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
+                    <a name="facial"></a>
+                    <div class="box-services">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'services.php'">
+                                    <img src="images/services/facial-s-hover.jpg" alt="belita hover" class="img-responsive"/>
+                                    <p class="p1"><a href="services.php">Facial</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'skin.php'">
+                                    <img src="images/services/skin.jpg" alt="body spa" class="img-responsive imgHoverable"/>
+                                    <p><a href="skin.php.php">Skin Care</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'hair.php'">
+                                    <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
+                                    <p><a href="hair.php">Hair Care</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href =     'hands.php'">
+                                    <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
+                                    <p><a href="hands.php">Hands & Feet</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'nail.php'">
+                                    <img src="images/services/nails-s.jpg" alt="nails" class="img-responsive imgHoverable"/>
+                                    <p><a href="nail.php">Nail Art</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'combo.php'">
+                                    <img src="images/services/combos-s.jpg" alt="salon services" class="img-responsive imgHoverable"/>
+                                    <p><a href="combo.php">Combos</a></p>
+                                </div>
+                            </div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Retina Ready</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                        </div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Fully Responsive</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                    </div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Ready To Use</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Retina Ready</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                    <div class="container" style="max-width:100%; width:95%">
+                        <div class="row">
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Fully Responsive</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                            <div class="col-md-6">
+                                <br/>
+                                <div class="mumbai-powai-prices">
+                                    <div class="table-responsive service-table">
+                                        <table class="table" style="border:1px #ddd solid">
+                                            <tbody>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Ready To Use</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row"></div>
-		</div>
-	</div>
+                                            <!--<tr>
+                                                <td class="td1">
+                                                    Pure Pamper
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1093</td>
+                                                <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>-->
+                                            <tr>
+                                                <td class="td1">
+                                                    Glistening Dew
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 909</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
 
-	<div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the new templates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-12">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Your Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+                                            <tr>
+                                                <td class="td1">
+                                                    Eternal Hydro
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 909</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    Pureza
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 909</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    Enlighten
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1449</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    Oxygeneting
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1576</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    All Bright
+                                                </td>
+                                                <td class="td2">60 min</td>
+                                                <td class="td3">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    White Tea
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1">
+                                                    GloVite
+                                                </td>
+                                                <td class="td2">80 min</td>
+                                                <td class="td3">&#x20B9; 2116</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1">
+                                                    Vitalift
+                                                </td>
+                                                <td class="td2">60 min</td>
+                                                <td class="td3">&#x20B9; 2657</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1">
+                                                    Magnetic Wellbeing
+                                                </td>
+                                                <td class="td2">60 min</td>
+                                                <td class="td3">&#x20B9; 2714</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1">
+                                                    Velvet
+                                                </td>
+                                                <td class="td2">60 min</td>
+                                                <td class="td3">&#x20B9; 3025</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1">
+                                                    Marine Magic Mask
+                                                </td>
+                                                <td class="td2">30 min</td>
+                                                <td class="td3">&#x20B9; 1150</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1">
+                                                    Sparkle Mask
+                                                </td>
+                                                <td class="td2">30 min</td>
+                                                <td class="td3">&#x20B9; 1380</td>
+                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
 
 	<footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">

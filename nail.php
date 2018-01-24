@@ -3,7 +3,15 @@
  * Created by PhpStorm.
  * User: Vaibhav Shah
  * Date: 1/24/2018
- * Time: 10:52 AM
+ * Time: 11:00 AM
+ */
+?>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Vaibhav Shah
+ * Date: 1/24/2018
+ * Time: 10:59 AM
  */
 ?>
 <!DOCTYPE HTML>
@@ -155,7 +163,7 @@
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href = 'hair.php'">
-                                <img src="images/services/hair-s-hover.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
+                                <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
                                 <p><a href="hair.php">Hair Care</a></p>
                             </div>
                         </div>
@@ -167,7 +175,7 @@
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href = 'nail.php'">
-                                <img src="images/services/nails-s.jpg" alt="nails" class="img-responsive imgHoverable"/>
+                                <img src="images/services/nails-s-hover.jpg" alt="nails" class="img-responsive imgHoverable"/>
                                 <p><a href="nail.php">Nail Art</a></p>
                             </div>
                         </div>
@@ -417,5 +425,6 @@
 
 </body>
 </html>
+
 
 

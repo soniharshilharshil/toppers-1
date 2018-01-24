@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Vaibhav Shah
  * Date: 1/24/2018
- * Time: 10:52 AM
+ * Time: 10:47 AM
  */
 ?>
 <!DOCTYPE HTML>
@@ -148,14 +148,14 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="box-services1" onClick="location.href = 'skin.php'">
-                                <img src="images/services/skin.jpg" alt="body spa" class="img-responsive imgHoverable"/>
-                                <p><a href="skin.php">Skin Care</a></p>
+                            <div class="box-services1" onClick="location.href = 'index.php'">
+                                <img src="images/services/skin-hover.jpg" alt="body spa" class="img-responsive imgHoverable"/>
+                                <p><a href="index.php">Skin Care</a></p>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href = 'hair.php'">
-                                <img src="images/services/hair-s-hover.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
+                                <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
                                 <p><a href="hair.php">Hair Care</a></p>
                             </div>
                         </div>
