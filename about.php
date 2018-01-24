@@ -66,16 +66,17 @@
 					</ul>
 				</div>
 			</div>
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
-                </div>
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="gtco-logo"><a href="index.php">Toppers Family's world <em>.</em></a></div>
+				</div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li class="active"><a href="about.php">About</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
                         <li class="has-dropdown">
                             <a href="services.php">Services</a>
+
                             <ul class="dropdown">
                                 <li><a href="book.php">Hair</a></li>
                                 <li><a href="book.php">Nail</a></li>
@@ -83,43 +84,20 @@
                                 <li><a href="book.php">Color</a></li>
                             </ul>
                         </li>
-                        <li><a href="education.php">Academic</a></li>>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
-
+                    <li><a href="education.php">Education</a>
+                    </li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
+                        <li><a href="login.php">Login / signup</a></li>
                     </ul>
-
-
                 </div>
-            </div>
-
-        </div>
+			</div>
+			
+		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">About Us</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">About what Toppers Salon is <em>by</em>The toppers..!</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</header>
 
@@ -149,13 +127,13 @@
 				<div class="col-md-12">
 					<div class="owl-carousel owl-carousel-fullwidth">
 						<div class="item">
-							<img src="images/1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
 						</div>
 						<div class="item">
-							<img src="images/2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
 						</div>
 						<div class="item">
-							<img src="images/3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
 						</div>
 						<div class="item">
 							<img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
@@ -288,21 +266,12 @@
 		<div class="gtco-container">
 			<div class="row row-pb-md">
 
-				    <div class="col-md-4">
-                        <div class="gtco-widget">
-                            <h3>About Us</h3>
-                            <p> We believe that you deserve to be beautiful without waiting
-                                in line at the parlour! We are kutch's first enterprise to
-                                bring the complete salon and wellness experience to your
-                                doorstep whenever you need it.
-                                Toppers goes all out to make you look like a million bucks
-                                wherever you are and whenever you want. Our staff of expert
-                                beauticians are trained to care and comfort you during your
-                                makeovers. Our passionate team turns this luxury into a
-                                convenience for women who want to be pampered.
-                                Just tell us when and where, and we'll be there! </p>
-                        </div>
-                    </div>
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
 
 				<div class="col-md-4 col-md-push-1">
 					<div class="gtco-widget">

@@ -29,13 +29,8 @@
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-
-
-
         <!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -71,36 +66,26 @@
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="about.php">About</a></li>
 						<li class="has-dropdown">
-							<a href="services.php">Services</a>
-                            <ul class="dropdown">
-								<li><a href="book.php">Hair</a></li>
+							<a href="#">Services</a>
+                                <ul class="dropdown">
+								<li><a href="hair.php">Hair</a></li>
 								<li><a href="book.php">Nail</a></li>
 								<li><a href="book.php">Spa</a></li>
 								<li><a href="book.php">Color</a></li>
 							</ul>
 						</li>
-                        <li><a href="education.php">Academic</a></li>>
+                        <li class="academic">
+                            <a href="education.php">Academic</a>
+                        </li>
 						<li class="has-dropdown">
-							<a href="#">Dropdown</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
+							<a href="#">Gallery</a>
+
 						</li>
-
-
-						<li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
+\						<li><a href="contact.php">Contact</a></li>
+                        <li><a href="login.php">Login/signup</a></li>
                     </ul>
-
-
 				</div>
 			</div>
-			
 		</div>
 	</nav>
 
@@ -111,7 +96,7 @@
 				<div class="col-md-12 col-md-offset-0 text-left">
 					<div class="display-t">
 						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Beauty To The Next Level</h1>
+							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Business To The Next Level</h1>
 							<h2 class="animate-box" data-animate-effect="fadeInUp">Welcome to the toppers World </em></h2>
 							<p class="animate-box" data-animate-effect="fadeInUp"><a href="book.php" class="btn btn-white btn-lg btn-outline">Book Appointment</a></p>
 						</div>
@@ -129,7 +114,7 @@
 							<i class="ti-search"></i>
 						</span>
 						<h3>Services</h3>
-						<p>Click hear and book your appointment and enjoy our various services.</p>
+						<p>We thankfull to annouce to our customers we are now in website and you can show all the services in our Website... </p>
 						<p><a href="services.php" class="btn btn-white btn-outline">Let's Go</a></p>
 					</div>
 				</div>
@@ -138,8 +123,8 @@
 						<span class="icon">
 							<i class="ti-announcement"></i>
 						</span>
-						<h3>offers</h3>
-						<p>Click hear and check various special offers and announcement for you.</p>
+						<h3>Announcdement</h3>
+						<p>We thankfull to annouced the new offers for the new Registration User..many type of offers can given by us.. </p>
 						<p><a href="#" class="btn btn-white btn-outline">Let's Go</a></p>
 					</div>
 				</div>
@@ -149,7 +134,7 @@
 							<i class="ti-timer"></i>
 						</span>
 						<h3>Product</h3>
-						<p>Click hear to book various products and buy them at our salon.</p>
+						<p>Now we can sell our product in throught to website so happy to say our user can purchased our product in our site </p>
 						<p><a href="#" class="btn btn-white btn-outline">Let's Go</a></p>
 					</div>
 				</div>
@@ -213,8 +198,8 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Our Latest Works</h2>
-					<p>now you can see our latest work picture...</p>
+					<h2>BOOK AN APPOINTMENT</h2>
+					<p>Glad to annouce all the our customer now you can book an appointment In Web through Internet...</p>
 				</div>
 			</div>
 
@@ -222,18 +207,18 @@
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
-							<a href="#" class="color-1">
+							<a href="hair.php" class="color-1">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>View the Earth from the Outer Space</h2>
+									<span>HAIR</span>
+									<h2>Book all the appointment releted to <b>HAIR</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
 							<a href="#" class="color-2">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Sleeping in the Cold Blue Water</h2>
+									<span>SKIN</span>
+									<h2>Book all the appointment releted to <b>SKIN</b></h2>
 								</div>
 							</a>
 						</li>
@@ -242,16 +227,16 @@
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
 							<a href="#" class="color-3">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Building Builded by Man</h2>
+									<span>BEAUTY</span>
+									<h2>Book all the appointment releted to <b>BEAUTY</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
 							<a href="#" class="color-4">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>The Peaceful Place On Earth</h2>
+									<span>HANDS & FEET</span>
+									<h2>Book all the appointment releted to <b>HANDS & FEET</b></h2>
 								</div>
 							</a>
 						</li>
@@ -259,16 +244,16 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); "> 
 							<a href="#" class="color-5">
 								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>I'm Getting Married</h2>
+									<span>SPA</span>
+									<h2>Book all the apppointment releted to <b>SPA</b></h2>
 								</div>
 							</a>
 						</li>
 						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
 							<a href="#" class="color-6">
 								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Beautiful Flowers In The Air</h2>
+									<span>NAIL-ART</span>
+									<h2>Book all the appointment releted to <b>NAIL_ART</b></h2>
 								</div>
 							</a>
 						</li>
@@ -374,28 +359,19 @@
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
 
-                <div class="col-md-4">
-                    <div class="gtco-widget">
-                        <h3>About Us</h3>
-                        <p> We believe that you deserve to be beautiful without waiting
-                            in line at the parlour! We are kutch's first enterprise to
-                            bring the complete salon and wellness experience to your
-                            doorstep whenever you need it.
-                            Toppers goes all out to make you look like a million bucks
-                            wherever you are and whenever you want. Our staff of expert
-                            beauticians are trained to care and comfort you during your
-                            makeovers. Our passionate team turns this luxury into a
-                            convenience for women who want to be pampered.
-                            Just tell us when and where, and we'll be there! </p>
-                    </div>
-                </div>
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
 
-                <div class="col-md-4 col-md-push-1">
+				<div class="col-md-4 col-md-push-1">
 					<div class="gtco-widget">
 						<h3>Links</h3>
 						<ul class="gtco-footer-links">
 							<li><a href="services.php">Services</a></li>
-
+							<li><a href="portfolio.php">portfolio</a></li>
 							<li><a href="contact.php">Contact us</a></li>
 							<li><a href="#">Terms of services</a></li>
 							<li><a href="about.php">About us</a></li>
@@ -420,8 +396,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
-						<small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
+                        <small class="block">&copy; 2018. All Rights Reserved by Toppers Family Salon.</small>
+                        <small class="block">Designed by Vaibhav ,Harshill, Sunil</small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">

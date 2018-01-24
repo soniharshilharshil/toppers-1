@@ -397,6 +397,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover.gtco-cover-xs {
   height: 500px;
 }
+.gtco-cover.gtco-cover-xssmall {
+  height: 150px;
+}
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-xs {
     height: inherit !important;
@@ -617,7 +620,7 @@ form label {
 .gtco-section {
 
   clear: both;
-  position: relative;
+  position:center;
 }
 @media screen and (max-width: 768px) {
   #gtco-features,

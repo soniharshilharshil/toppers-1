@@ -1,4 +1,30 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Harshil-PC
+ * Date: 1/23/2018
+ * Time: 6:45 PM
+ */
+?>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Harshil-PC
+ * Date: 1/23/2018
+ * Time: 6:38 PM
+ */
+?>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Harshil-PC
+ * Date: 1/23/2018
+ * Time: 6:15 PM
+ */
+?>
+
 <html>
+<title>The Toppers..!</title>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,11 +71,8 @@
     <![endif]-->
 
 
-
 </head>
-
 <body>
-<div class="gtco-loader"></div>
 
 <div id="page">
     <nav class="gtco-nav" role="navigation">
@@ -83,7 +106,6 @@
                             </ul>
                             <a href="education.php">Education</a>
                         </li>
-
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="login.php">Login / signup</a></li>
                     </ul>
@@ -97,84 +119,40 @@
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
-                    <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">TOPPERS ACADAMIC</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Enquiry for Courses</h2></em></h2>
-                    </div>
+
                 </div>
             </div>
-        </div>
     </header>
 
-
-
-    <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-        <h2>ENQUIRY FORM</h2>
-    </div>
-
-
-
-
-    <div class="gtco-section">
+    <div id="gtco-products">
         <div class="gtco-container">
-            <div class="row row-pb-md">
-                <div class="col-md-6 animate-box">
-                    <h3>INQUERY FORM</h3>
-                    <form action="#">
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="sr-only" for="name">Name</label>
-                                <input type="text" id="name" class="form-control" placeholder="Your firstname">
-                            </div>
+            <div class="row animate-box">
 
-                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+            <img src="images/done.png"></img>
+            <h1> Thanks for placing the request. Our team will get back to you shortly after checking the availability to confirm your booking.
+            </h1>
+        </div>
 
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="sr-only" for="email">Email</label>
-                                <input type="text" id="email" class="form-control" placeholder="Your email address">
-                            </div>
-                        </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+            <h2>STAY BEAUTIFUL...!</h2>
 
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="sr-only" for="subject">Subject</label>
-                                <select class="form-control"><option><B>HAIR 6 MONTH</B></option><option><b>SKIN 6 MONTH<b/></option><option><b>BEAUTY 6 MONTH<b/></option><option><b>NAIL 6 MONTH<b/></option><option><b>SPA 6 MONTH</b>b></option></select>
-                            </div>
-                        </div>
+            <form action="payment.php">
+                <input type="submit" value="Back" Name="Back" class="btn btn-primary btn-lg">
+            </form>
+            <form action="index.php"><input type="submit" value="Home" Name="Home" class="btn btn-primary btn-lg"></form>
 
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="sr-only" for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary btn-lg">
-                        </div>
-
-                    </form>
-                </div>
-                <div class="col-md-5 col-md-push-1 animate-box">
-
-                    <div class="gtco-contact-info">
-                        <h3>Contact Information</h3>
-                        <ul>
-                            <li class="address">Gohil tower, <br> Navavash Main Vagetable Market madhapar bhuj kutch</li>
-                            <li class="phone"><a href="tel://1234567920">+91 8264686566</a></li>
-                            <li class="email"><a href="mailto:info@yoursite.com">hsoni.123442@gmail.com</a></li>
-                            <li class="url"><a href="http://gettemplates.co">Www.toppers-salon.com</a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
+</div>
 
 
 
-
-
-                <footer id="gtco-footer" role="contentinfo">
+</div>
+    <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
             <div class="row row-p	b-md">
 
@@ -215,8 +193,8 @@
             <div class="row copyright">
                 <div class="col-md-12">
                     <p class="pull-left">
-                        <small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
-                        <small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
+                        <small class="block">&copy; 2018. All Rights Reserved by Toppers Family Salon.</small>
+                        <small class="block">Designed by Vaibhav ,Harshill, Sunil</small>
                     </p>
                     <p class="pull-right">
                     <ul class="gtco-social-icons pull-right">
@@ -232,6 +210,7 @@
         </div>
     </footer>
 </div>
+
 <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 </div>
@@ -255,7 +234,7 @@
 <script src="js/main.js"></script>
 
 
-
-
 </body>
 </html>
+
+
