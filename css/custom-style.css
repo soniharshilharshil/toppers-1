@@ -136,5 +136,29 @@
     .floating-button{
         top: 185px !important;
     }
+
 }
 
+.services{padding:0px 0px 50px;margin:15px auto 0;}
+
+.services h1{font-size:19px;line-height:28px;padding:0 10px 20px 0;}
+
+.box-services{width:100%;padding:0px 0 20px;}
+
+.box-services img{display:none;}
+
+.box-services p, .box-services h6{font-size:13px;text-align:left;text-transform:uppercase;margin:0}
+
+.box-services p a{padding:5px 15px;background:none;color:#ed1c24;text-align:left;display:block;margin:0;}
+
+.box-services p a{text-decoration:none}
+
+.box-services p.p1 a{padding:10px 15px;background:#ed1c24;color:#fff;text-align:left;display:block;margin:0;}
+
+.box-services p.p1 a:after{border:none;}
+
+.services{padding:70px 0px 50px;font-weight:300;color:#ff3161;text-align:left;background:#f2f2f2;}
+
+.MP-zero{margin:0px;padding:0px!important;}
+
+.MP-zero{margin:0px;padding:0px!important;}

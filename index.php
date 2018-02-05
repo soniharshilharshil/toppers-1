@@ -59,24 +59,25 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+					<div id="gtco-logo"><a href="index.php"><img src="images/toppers.png" height="100" width="100"></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="about.php">About</a></li>
 						<li class="has-dropdown">
-							<a href="#">Services</a>
+							<a href="services.php">Services</a>
                                 <ul class="dropdown">
-								<li><a href="hair.php">Hair</a></li>
-								<li><a href="book.php">Nail</a></li>
-								<li><a href="book.php">Spa</a></li>
-								<li><a href="book.php">Color</a></li>
+                                    <li><a href="hair.php">Hair</a></li>
+                                    <li><a href="services.php">Facial</a></li>
+                                    <li><a href="skin.php">Skin</a></li>
+                                    <li><a href="hands.php">Hands & Feet</a></li>
+                                    <li><a href="nail.php">Nail</a></li>
 							</ul>
 						</li>
                         <li class="academic">
                             <a href="education.php">Academic</a>
-                        </li>
+                          </li>
 						<li class="has-dropdown">
 							<a href="#">Gallery</a>
 
@@ -97,7 +98,7 @@
 					<div class="display-t">
 						<div class="display-tc">
 							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Business To The Next Level</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Welcome to the toppers World </em></h2>
+
 							<p class="animate-box" data-animate-effect="fadeInUp"><a href="book.php" class="btn btn-white btn-lg btn-outline">Book Appointment</a></p>
 						</div>
 					</div>
@@ -135,7 +136,7 @@
 						</span>
 						<h3>Product</h3>
 						<p>Now we can sell our product in throught to website so happy to say our user can purchased our product in our site </p>
-						<p><a href="#" class="btn btn-white btn-outline">Let's Go</a></p>
+						<p><a href="product.php" class="btn btn-white btn-outline">Let's Go</a></p>
 					</div>
 				</div>
 			</div>
@@ -214,11 +215,11 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeOut" style="background-image: url(images/img_2.jpg); ">
 							<a href="#" class="color-2">
 								<div class="case-studies-summary">
 									<span>SKIN</span>
-									<h2>Book all the appointment releted to <b>SKIN</b></h2>
+									<h2>Skin<b>SKIN</b></h2>
 								</div>
 							</a>
 						</li>

@@ -79,10 +79,11 @@
                             <a href="services.php">Services</a>
 
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="services.php">Facial</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="hands.php">Hands & Feet</a></li>
+                                <li><a href="nail.php">Nail</a></li>
                             </ul>
 
                         </li>
@@ -110,7 +111,11 @@
         <div class="services">
             <div class="row MP-zero">
                 <div class="col-md-12 MP-zero">
-
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                            <h2>Our Services</h2>
+                        </div>
+                    </div>
                     <a name="facial"></a>
                     <div class="box-services">
                         <div class="row">
@@ -121,11 +126,16 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
+
                                 <div class="box-services1" onClick="location.href = 'skin.php'">
+
                                     <img src="images/services/skin.jpg" alt="body spa" class="img-responsive imgHoverable"/>
-                                    <p><a href="skin.php.php">Skin Care</a></p>
+                                    <p><a href="skin.php" class="service-1">Skin Care</a></p>
+
                                 </div>
-                            </div>
+
+                                </div>
+
                             <div class="col-md-2">
                                 <div class="box-services1" onClick="location.href = 'hair.php'">
                                     <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
@@ -179,7 +189,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 909</td>
-                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><a href="book.php"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></a></td>
                                             </tr>
 
                                             <tr>
@@ -188,7 +198,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 909</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -196,7 +206,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 909</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -204,7 +214,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 1449</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -212,7 +222,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 1576</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -220,7 +230,7 @@
                                                 </td>
                                                 <td class="td2">60 min</td>
                                                 <td class="td3">&#x20B9; 1817</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -228,7 +238,7 @@
                                                 </td>
                                                 <td class="td2">45 min</td>
                                                 <td class="td3">&#x20B9; 1817</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
                                             <tr>
@@ -237,7 +247,7 @@
                                                 </td>
                                                 <td class="td2">80 min</td>
                                                 <td class="td3">&#x20B9; 2116</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
                                             <tr>
@@ -246,7 +256,7 @@
                                                 </td>
                                                 <td class="td2">60 min</td>
                                                 <td class="td3">&#x20B9; 2657</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
                                             <tr>
@@ -255,7 +265,7 @@
                                                 </td>
                                                 <td class="td2">60 min</td>
                                                 <td class="td3">&#x20B9; 2714</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
                                             <tr>
@@ -264,7 +274,7 @@
                                                 </td>
                                                 <td class="td2">60 min</td>
                                                 <td class="td3">&#x20B9; 3025</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
                                             <tr>
@@ -273,7 +283,7 @@
                                                 </td>
                                                 <td class="td2">30 min</td>
                                                 <td class="td3">&#x20B9; 1150</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
                                             <tr>
                                                 <td class="td1">
@@ -281,7 +291,7 @@
                                                 </td>
                                                 <td class="td2">30 min</td>
                                                 <td class="td3">&#x20B9; 1380</td>
-                                                <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
                                             </tr>
 
 

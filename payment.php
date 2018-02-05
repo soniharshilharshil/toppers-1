@@ -1,19 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Harshil-PC
- * Date: 1/23/2018
- * Time: 6:38 PM
- */
-?>
-<?php
-/**
- * Created by PhpStorm.
- * User: Harshil-PC
- * Date: 1/23/2018
- * Time: 6:15 PM
- */
-?>
+
 
 <html>
 <title>The Toppers..!</title>
@@ -91,10 +76,11 @@
                             <a href="services.php">Services</a>
 
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="services.php">Facial</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="hands.php">Hands & Feet</a></li>
+                                <li><a href="nail.php">Nail</a></li>
                             </ul>
                             <a href="education.php">Education</a>
                         </li>
