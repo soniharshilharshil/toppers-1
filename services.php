@@ -4,7 +4,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Toppers the family salon and institute</title>
+	<title>The Toppers...</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -22,7 +22,7 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -51,291 +51,272 @@
 
 	</head>
 	<body>
-		
+
 	<div class="gtco-loader"></div>
-	
+
 	<div id="page">
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-12 text-right gtco-contact">
 					<ul class="">
-                        <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
-                        <li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
+						<li><a href="#"><i class="ti-mobile"></i>+91 8264686566 </a></li>
+						<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
 						<li><a href="#"><i class="icon-mail2"></i></a></li>
 						<li><a href="#"><i class="ti-facebook"></i></a></li>
 					</ul>
 				</div>
 			</div>
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
-                </div>
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="gtco-logo"><a href="index.php">Toppers Family salon <em>.</em></a></div>
+				</div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="about.php">About</a></li>
-                        <li class="has-dropdown active">
-                            <a href="services.php">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="education.php">Academic</a></li>>
                         <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
+                            <a href="services.php">Services</a>
+
                             <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="services.php">Facial</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="hands.php">Hands & Feet</a></li>
+                                <li><a href="nail.php">Nail</a></li>
                             </ul>
+
                         </li>
+                        <li>    <a href="education.php">Education</a></li>
+                        <li><a href="portfolio.php">Portfolio</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
+                        <li><a href="login.php">Login / signup</a></li>
                     </ul>
-
-
                 </div>
             </div>
 
 
-        </div>
+		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Our Services</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
+        </div>
 	</header>
-	
-	<div class="gtco-section border-bottom">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>What We Offer</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-settings"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Web Development</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-ruler-pencil"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Web Design</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-face-smile"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Customer Support</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-cup"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>User Experience</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-ruler-alt-2"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Pixel Perfect Design</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="ti-desktop"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Creative Themes</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
 
-			</div>
 
-		</div>
-	</div>
-	<div class="gtco-section">
-		<div class="gtco-container">
+        <div class="services">
+            <div class="row MP-zero">
+                <div class="col-md-12 MP-zero">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                            <h2>Our Services</h2>
+                        </div>
+                    </div>
+                    <a name="facial"></a>
+                    <div class="box-services">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'services.php'">
+                                    <img src="images/services/facial-s-hover.jpg" alt="belita hover" class="img-responsive"/>
+                                    <p class="p1"><a href="services.php">Facial</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
 
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>More Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
+                                <div class="box-services1" onClick="location.href = 'skin.php'">
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Retina Ready</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                                    <img src="images/services/skin.jpg" alt="body spa" class="img-responsive imgHoverable"/>
+                                    <p><a href="skin.php" class="service-1">Skin Care</a></p>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Fully Responsive</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                                </div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Ready To Use</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Retina Ready</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                                </div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Fully Responsive</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'hair.php'">
+                                    <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
+                                    <p><a href="hair.php">Hair Care</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href =     'hands.php'">
+                                    <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
+                                    <p><a href="hands.php">Hands & Feet</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'nail.php'">
+                                    <img src="images/services/nails-s.jpg" alt="nails" class="img-responsive imgHoverable"/>
+                                    <p><a href="nail.php">Nail Art</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'combo.php'">
+                                    <img src="images/services/combos-s.jpg" alt="salon services" class="img-responsive imgHoverable"/>
+                                    <p><a href="combo.php">Combos</a></p>
+                                </div>
+                            </div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Ready To Use</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row"></div>
-		</div>
-	</div>
+                        </div>
 
-	<div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the new templates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-12">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Your Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+                    </div>
 
-	<footer id="gtco-footer" role="contentinfo">
+                    <div class="container" style="max-width:100%; width:95%">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <br/>
+                                <div class="mumbai-powai-prices">
+                                    <div class="table-responsive service-table">
+                                        <table class="table" style="border:1px #ddd solid">
+                                            <tbody>
+
+                                            <!--<tr>
+                                                <td class="td1">
+                                                    Pure Pamper
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1093</td>
+                                                <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>-->
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Glistening Dew
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td><a href="book.php"><img src="images/services/book.png" </td></a>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Eternal Hydro
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td><img src="images/services/book.png"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Pureza
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Enlighten
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1449</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Oxygeneting
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1576</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    All Bright
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    White Tea
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    GloVite
+                                                </td>
+                                                <td class="td2 chaman">80 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2116</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Vitalift
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2657</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Magnetic Wellbeing
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2714</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Velvet
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 3025</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Marine Magic Mask
+                                                </td>
+                                                <td class="td2 chaman">30 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1150</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Sparkle Mask
+                                                </td>
+                                                <td class="td2 chaman">30 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1380</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                <footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
 			<div class="row row-pb-md">
 
-                <div class="col-md-4">
-                    <div class="gtco-widget">
-                        <h3>About Us</h3>
-                        <p> We believe that you deserve to be beautiful without waiting
-                            in line at the parlour! We are kutch's first enterprise to
-                            bring the complete salon and wellness experience to your
-                            doorstep whenever you need it.
-                            Toppers goes all out to make you look like a million bucks
-                            wherever you are and whenever you want. Our staff of expert
-                            beauticians are trained to care and comfort you during your
-                            makeovers. Our passionate team turns this luxury into a
-                            convenience for women who want to be pampered.
-                            Just tell us when and where, and we'll be there! </p>
-                    </div>
-                </div>
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
 
-                <div class="col-md-4 col-md-push-1">
+				<div class="col-md-4 col-md-push-1">
 					<div class="gtco-widget">
 						<h3>Links</h3>
 						<ul class="gtco-footer-links">
@@ -346,6 +327,9 @@
 							<li><a href="#">Privacy Policy</a></li>
                             <li><a href="admin.php">Administrator</a></li>
 						</ul>
+
+
+
 					</div>
 				</div>
 
@@ -365,8 +349,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+						<small class="block">Designed by<a>VAIBHAV HARSHIL SUNIL</a></small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">
@@ -386,7 +370,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->

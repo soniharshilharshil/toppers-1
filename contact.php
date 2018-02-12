@@ -10,9 +10,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Aesthetic &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="gettemplates.co" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -55,73 +52,52 @@
 
 	</head>
 	<body>
-		
-	<div class="gtco-loader"></div>
-	
-	<div id="page">
-	<nav class="gtco-nav" role="navigation">
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 text-right gtco-contact">
-					<ul class="">
-                        <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
-                        <li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
-						<li><a href="#"><i class="icon-mail2"></i></a></li>
-						<li><a href="#"><i class="ti-facebook"></i></a></li>
-					</ul>
-				</div>
-			</div>
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+    <div class="gtco-loader"></div>
+    <div id="page">
+        <nav class="gtco-nav" role="navigation">
+            <div class="gtco-container">
+                <div class="row">
+                    <div class="col-md-12 text-right gtco-contact">
+                        <ul class="">
+                            <li><a href="#"><i class="ti-mobile"></i> +91 8264686566 </a></li>
+                            <li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession"><i class="icon-mail2"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="ti-facebook"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-xs-8 text-right menu-1">
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li class="has-dropdown">
-                            <a href="services.php">Services</a>
-                            <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="education.php">Academic</a></li>>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="active"><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
-                    </ul>
-
-
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div id="gtco-logo"><img src="css/toppers.png" height="100" width="100"> <em>.</em></a></div>
+                    </div>
+                    <div class="col-xs-8 text-right menu-1">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li class="has-dropdown">
+                                <a href="services.php">Services</a>
+                                <ul class="dropdown">
+                                    <li><a href="book.php">Hair</a></li>
+                                    <li><a href="book.php">Nail</a></li>
+                                    <li><a href="book.php">Spa</a></li>
+                                    <li><a href="book.php">Color</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="education.php">Academic</a></li>>
+                            <li class="active"><a href="contact.php">Contact</a></li>
+                            <li><a href="login.php">Login/Sign Up</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-        </div>
-	</nav>
-
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+        </nav>
+        <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Get In Touch</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -173,11 +149,10 @@
 					<div class="gtco-contact-info">
 						<h3>Contact Information</h3>
 						<ul>
-							<li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
-						</ul>
+							<li class="address">Shop No:10, <br> Tulsi Marble Building, <br> Gaytri Mandir Road, <br> Madhapar-Bhuj 370020</li>
+							<li class="phone"><a href="tel://1234567920">+91 8264686566</a></li>
+							<li class="email"><a href="mailto:info@toppers.com">info@toppers.com</a></li>
+							</ul>
 					</div>
 
 
@@ -225,7 +200,6 @@
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>Get In Touch</h3>
 						<ul class="gtco-quick-contact">
 							<li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
 							<li><a href="#"><i class="icon-mail2"></i> HSONI.123442@GMAIL.COM</a></li>
@@ -239,8 +213,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2018 by Toppers Family Salon. All Rights Reserved.</small>
+						<small class="block">Designed by VAIBHAV HARSHILL SUNIL</small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">

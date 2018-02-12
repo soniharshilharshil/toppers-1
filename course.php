@@ -49,6 +49,7 @@
 </head>
 
 <body>
+<div class="gtco-loader"></div>
 
 <div id="page">
     <nav class="gtco-nav" role="navigation">
@@ -82,16 +83,7 @@
                             </ul>
                             <a href="education.php">Education</a>
                         </li>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
+
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="login.php">Login / signup</a></li>
                     </ul>
@@ -100,29 +92,170 @@
 
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="col-md-12 col-md-offset-0 text-left">
                 <div class="display-t">
                     <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">Education Online</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Toppers provide Online plateform to Check the education</h2></em></h2>
+                        <h1 class="animate-box" data-animate-effect="fadeInUp">TOPPERS ACADAMIC</h1>
+                        <h2 class="animate-box" data-animate-effect="fadeInUp">Enquiry for Courses</h2></em></h2>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <form mathod="post">
-        <table hight="45%" width="45%">
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-    </form>
-    </body>
+
+
+    <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+        <h2>ENQUIRY FORM</h2>
+    </div>
+
+
+
+
+    <div class="gtco-section">
+        <div class="gtco-container">
+            <div class="row row-pb-md">
+                <div class="col-md-6 animate-box">
+                    <h3>INQUERY FORM</h3>
+                    <form action="#">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your firstname">
+                            </div>
+
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="email">Email</label>
+                                <input type="text" id="email" class="form-control" placeholder="Your email address">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="subject">Subject</label>
+                                <select class="form-control"><option><B>HAIR 6 MONTH</B></option><option><b>SKIN 6 MONTH<b/></option><option><b>BEAUTY 6 MONTH<b/></option><option><b>NAIL 6 MONTH<b/></option><option><b>SPA 6 MONTH</b>b></option></select>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary btn-lg">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-5 col-md-push-1 animate-box">
+
+                    <div class="gtco-contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li class="address">Gohil tower, <br> Navavash Main Vagetable Market madhapar bhuj kutch</li>
+                            <li class="phone"><a href="tel://1234567920">+91 8264686566</a></li>
+                            <li class="email"><a href="mailto:info@yoursite.com">hsoni.123442@gmail.com</a></li>
+                            <li class="url"><a href="http://gettemplates.co">Www.toppers-salon.com</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <footer id="gtco-footer" role="contentinfo">
+        <div class="gtco-container">
+            <div class="row row-p	b-md">
+
+                <div class="col-md-4">
+                    <div class="gtco-widget">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-md-push-1">
+                    <div class="gtco-widget">
+                        <h3>Links</h3>
+                        <ul class="gtco-footer-links">
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="portfolio.php">portfolio</a></li>
+                            <li><a href="contact.php">Contact us</a></li>
+                            <li><a href="#">Terms of services</a></li>
+                            <li><a href="about.php">About us</a></li>
+                            <li><a href="admin.php">Administrator</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gtco-widget">
+                        <h3>Get In Touch</h3>
+                        <ul class="gtco-quick-contact">
+                            <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
+                            <li><a href="#"><i class="icon-mail2"></i> hsoni.123442@gmail.com</a></li>
+                            <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <p class="pull-left">
+                        <small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
+                        <small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
+                    </p>
+                    <p class="pull-right">
+                    <ul class="gtco-social-icons pull-right">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- countTo -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+
+
+
+
 </body>
 </html>
