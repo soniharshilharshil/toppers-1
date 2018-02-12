@@ -29,10 +29,6 @@
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-
-
-
         <!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -42,13 +38,9 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
-
 	</head>
 	<body>
-		
 	<div class="gtco-loader"></div>
-	
 	<div id="page">
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
@@ -63,10 +55,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
-				</div>
-				<div class="col-xs-8 text-right menu-1">
+                <div class="col-sm-4 col-xs-12">
+                    <div id="gtco-logo"><img src="images/toppers.png" height="100" width="100"> <em>.</em></a></div>
+                </div>
+                <div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="about.php">About</a></li>
@@ -79,31 +71,15 @@
 								<li><a href="book.php">Color</a></li>
 							</ul>
 						</li>
-                        <li><a href="education.php">Academic</a></li>>
-						<li class="has-dropdown">
-							<a href="#">Dropdown</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-
-
-						<li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
-
-
-                    </ul>
-
-
-				</div>
+                            <li><a href="education.php">Academic</a></li>
+						    <li><a href="contact.php">Contact</a></li>
+                            <li><a href="login.php">Login</a></li>
+                        <li><a href="userprofile.php">my Acoount</a></li>
+                        </ul>
+                    </div>
 			</div>
-			
 		</div>
 	</nav>
-
 	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
@@ -112,7 +88,6 @@
 					<div class="display-t">
 						<div class="display-tc">
 							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Beauty To The Next Level</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Welcome to the toppers World </em></h2>
 							<p class="animate-box" data-animate-effect="fadeInUp"><a href="book.php" class="btn btn-white btn-lg btn-outline">Book Appointment</a></p>
 						</div>
 					</div>
@@ -140,13 +115,13 @@
 						</span>
 						<h3>offers</h3>
 						<p>Click hear and check various special offers and announcement for you.</p>
-						<p><a href="#" class="btn btn-white btn-outline">Let's Go</a></p>
+						<p><a href="offers.php" class="btn btn-white btn-outline">Let's Go</a></p>
 					</div>
 				</div>
 				<div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
 					<div class="feature-inner">
 						<span class="icon">
-							<i class="ti-timer"></i>
+							<i class="ti-shopping-cart"></i>
 						</span>
 						<h3>Product</h3>
 						<p>Click hear to book various products and buy them at our salon.</p>
@@ -158,7 +133,6 @@
 	</div>
         <html>
         <head>
-
         </head>
         <div class="aboutus-home">
             <div class="aboutus-home-box">
@@ -168,38 +142,38 @@
                     </h1>
                 </div>
                 <div class="row">
-                <div class="aboutus-home-box2">
+                <div class="aboutus-home-box2 animate-box">
                     <div class="col-md-3">
                     <img src="images/aboutus/service.png" alt="service" class="img-responsive"/>
                     <h2>
-                        <span>Select Services</span><br/>
+                        <div class="redcolor">SELECT SERVICE</div>
                         Choose from a wide range of beauty services offered directly to your doorstep.
                     </h2>
                     </div>
                 </div>
-                <div class="aboutus-home-box3">
+                <div class="aboutus-home-box3 animate-box">
                     <div class="col-md-3">
                     <img src="images/aboutus/date.png" alt="date icon image" class="img-responsive"/>
                     <h2>
-                        <span>Pick Date and Time</span><br/>
+                        <div class="redcolor">PICK TIME AND DATE</div>
                         Book beauty sessions at your convenience, anytime and anywhere in Bhuj.
                     </h2>
                     </div>
                 </div>
-                <div class="aboutus-home-box4">
+                <div class="aboutus-home-box4 animate-box">
                     <div class="col-md-3">
                     <img src="images/aboutus/receive.png" alt="recieve" class="img-responsive"/>
                     <h2>
-                        <span>Receive Confirmation</span><br/>
+                        <div class="redcolor">RECEIVE CONFIRMATION</div>
                         Upon booking, you'll immediately receive confirmation with relevant details.
                     </h2>
                     </div>
                 </div>
-                <div class="aboutus-home-box5">
+                <div class="aboutus-home-box5 animate-box">
                     <div class="col-md-3">
                     <img src="images/aboutus/enjoy.png" alt="pamper yourself" class="img-responsive"/>
                     <h2>
-                        <span>Enjoy the Experience</span><br/>
+                        <div class="redcolor">ENJOY EXPERIENCE</div>
                         Relax and enjoy the pampering because ladies, you deserve it.
                     </h2>
                     </div>
@@ -210,89 +184,38 @@
         </html>
 
         <div id="gtco-portfolio" class="gtco-section">
+            <div class="gtco-container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                        <h2>Our Works</h2>
+                    </div>
+                </div>
+
+                <div class="row row-pb-md">
+                    <div class="col-md-12">
+                        <ul id="gtco-portfolio-list">
+                            <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/manhair.jpg); "></li>
+                            <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/skingirl.jpg); "></li>
+                            <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s1.jpg); "></li>
+                            <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s2.jpg); "></li>
+                            <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s5.jpg); "></li>
+                            <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); "></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center animate-box">
+                        <a href="services.php" class="btn btn-white btn-outline btn-lg btn-block">See All Our Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gtco-counter" class="gtco-section">
 		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Our Latest Works</h2>
-					<p>now you can see our latest work picture...</p>
-				</div>
-			</div>
-
-			<div class="row row-pb-md">
-				<div class="col-md-12">
-					<ul id="gtco-portfolio-list">
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
-							<a href="#" class="color-1">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>View the Earth from the Outer Space</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
-							<a href="#" class="color-2">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Sleeping in the Cold Blue Water</h2>
-								</div>
-							</a>
-						</li>
-
-
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Building Builded by Man</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>The Peaceful Place On Earth</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); "> 
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>I'm Getting Married</h2>
-								</div>
-							</a>
-						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Beautiful Flowers In The Air</h2>
-								</div>
-							</a>
-						</li>
-					</ul>		
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4 text-center animate-box">
-					<a href="services.php" class="btn btn-white btn-outline btn-lg btn-block">See All Our Works</a>
-				</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="gtco-counter" class="gtco-section">
-		<div class="gtco-container">
-
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Fun Facts</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 
@@ -340,40 +263,9 @@
 			</div>
 		</div>
 	</div>
-
-	<div id="gtco-products">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Products</h2>
-					<p>on this section you can show the product catelog</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="owl-carousel owl-carousel-carousel">
-					<div class="item">
-						<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-					</div>
-					<div class="item">
-						<img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-					</div>
-					<div class="item">
-						<img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-					</div>
-					<div class="item">
-						<img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-
 	<footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
-
                 <div class="col-md-4">
                     <div class="gtco-widget">
                         <h3>About Us</h3>
@@ -463,4 +355,3 @@
 
     </body>
 </html>
-

@@ -314,7 +314,7 @@
 		}
 	};
 
-	
+
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
@@ -330,3 +330,4 @@
 
 
 }());
+

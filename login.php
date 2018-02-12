@@ -10,11 +10,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Toppers..!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
-    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-    <meta name="author" content="gettemplates.co" />
-
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content=""/>
     <meta property="og:image" content=""/>
@@ -50,13 +45,10 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-
-
-
 </head>
 
 <body>
-
+<div class="gtco-loader"></div>
 <div id="page">
     <nav class="gtco-nav" role="navigation">
         <div class="gtco-container">
@@ -72,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+                    <div id="gtco-logo"><img src="css/toppers.png" height="100" width="100"> <em>.</em></a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -88,39 +80,18 @@
                             </ul>
                         </li>
                         <li><a href="education.php">Academic</a></li>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
-
                         <li><a href="contact.php">Contact</a></li>
-                        <li class="active"><a href="login.php">Login</a></li>
-
-
+                        <li class="active"><a href="login.php">Login/Sign Up</a></li>
                     </ul>
-
-
                 </div>
             </div>
-
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
-            <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
-                    <div class="display-tc">
-                        <h1 class="animate-box" data-animate-effect="fadeInUp">Join with us..</h1>
-                        <h2 class="animate-box" data-animate-effect="fadeInUp">Here now you can join with us...!</h2></em></h2>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </header>
 
@@ -131,7 +102,7 @@
         <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
         <title>Login with registration - Bootsnipp.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+ <<!--       <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">-->
         <style type="text/css">
             body
             .panel-login {
@@ -233,8 +204,8 @@
             }
 
         </style>
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" scr="js/bootstrap.min.js"></script>
     </head>
     <body>
     <div class="container">
@@ -288,13 +259,17 @@
                                         <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                                        <input type="email" name="email" id="email" tabindex="2" class="form-control" placeholder="Email Address" value="">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                                        <input type="text" name="mobno" id="mobno" tabindex="3" class="form-control" placeholder="Mobile Number" value="">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="password" tabindex="4" class="form-control" placeholder="Password">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                                        <input type="password" name="confirm-password" id="confirm-password" tabindex="5" class="form-control" placeholder="Confirm Password">
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
@@ -335,10 +310,10 @@
     </body>
     </html>
 
+
     <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
             <div class="row row-p	b-md">
-
                 <div class="col-md-4">
                     <div class="gtco-widget">
                         <h3>About Us</h3>
@@ -360,6 +335,7 @@
                         <h3>Links</h3>
                         <ul class="gtco-footer-links">
                             <li><a href="services.php">Services</a></li>
+                            <li><a href="portfolio.php">portfolio</a></li>
                             <li><a href="contact.php">Contact us</a></li>
                             <li><a href="#">Terms of services</a></li>
                             <li><a href="about.php">About us</a></li>
@@ -397,9 +373,8 @@
                     </p>
                 </div>
             </div>
-
         </div>
-    </footer>
+</footer>
 </div>
 <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
