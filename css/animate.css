@@ -3349,3 +3349,22 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+.services{padding:70px 0px 50px;margin:0px auto 0;font-weight:300;color:forestgreen;text-align:left;background:#f2f2f2;}
+
+.services h1{font-size:30px;line-height:40px;padding:0 10px 0px 0;margin:0;color:forestgreen;text-align:center;text-transform:uppercase;}
+
+.box-services{width:90%;padding:50px 0 50px;margin:0px auto 0;font-weight:300;text-align:left;}
+
+.box-services1{width:100%;float:left;display:block;cursor:pointer}
+
+.box-services p, .box-services h6{font-size:13px;text-align:left;text-transform:uppercase;margin:0}
+
+.box-services p a{padding:10px 15px;background:#ed1c24;color:#fff;text-align:left;display:block;margin:0;}
+
+.box-services p a{text-decoration:none}
+
+.box-services p.p1 a{padding:10px 15px;background:#ed1c24;color:#fff;text-align:left;display:block;margin:0;}
+
+.services{padding:0px 0px 50px;margin:15px auto 0;}
+
