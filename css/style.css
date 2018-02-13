@@ -2775,13 +2775,9 @@ padding-left: 45%;
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: Arial;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
 
 button {
   border: none;
