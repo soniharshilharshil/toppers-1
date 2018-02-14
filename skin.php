@@ -53,7 +53,11 @@
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
+<<<<<<< HEAD
     <!--[if lt IE 9]-->
+=======
+    <!--[if lt IE 9]>
+>>>>>>> origin/master
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
@@ -116,6 +120,7 @@
         </div>
     </nav>
 
+<<<<<<< HEAD
     <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
@@ -129,6 +134,12 @@
                     </div>
                 </div>
             </div>
+=======
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+        <div class="overlay"></div>
+        <div class="gtco-container">
+
+>>>>>>> origin/master
         </div>
     </header>
 
@@ -137,6 +148,14 @@
     <div class="services">
         <div class="row MP-zero">
             <div class="col-md-12 MP-zero">
+<<<<<<< HEAD
+=======
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+>>>>>>> origin/master
 
                 <a name="facial"></a>
                 <div class="box-services">

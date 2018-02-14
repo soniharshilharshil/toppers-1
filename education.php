@@ -103,6 +103,7 @@
         </div>
     </header>
 
+<<<<<<< HEAD
 
     <div id="gtco-history" class="gtco-section border-bottom animate-box">
         <div class="gtco-container">
@@ -286,6 +287,193 @@
                             <?php
                             include "footer.php";
                             ?>
+=======
+
+    <div id="gtco-history" class="gtco-section border-bottom animate-box">
+        <div class="gtco-container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2>TOPPERS TRAINING INSTITUTE</h2>
+                       <p>In madhapar the first SALON INTITUTE are opening for Madhapar Beauty Artits...The toppers family salon and training institute are Provide that platform to our Student..</p>
+                </div>
+            </div>
+
+                 <div class="col-md-12">
+                    <div class="owl-carousel owl-carousel-fullwidth">
+                        <div class="item">
+                            <img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                        <div class="item">
+                            <img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                        <div class="item">
+                            <img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                        <div class="item">
+                            <img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                        <div class="item">
+                            <img src="images/img_5.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                        <div class="item">
+                            <img src="images/img_6.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+    <div id="gtco-team" class="gtco-section">
+        <div class="gtco-container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2>MEET OUT INSTRACTOR</h2>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+                    <div class="gtco-staff">
+                        <img src="images/person_1.jpg" alt="Free HTML5 Templates by gettemplates.co">
+                        <h3>MR SANJAY VAGHELA</h3>
+                        <strong class="role">CREATIVE HEAD</strong>
+                        <p>Mr sanjay vaghela are student In indian best hair artits JAWED HABIB..</p>
+                        <ul class="gtco-social-icons">
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                                   </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+                        <div class="gtco-staff">
+                            <img src="images/person_1.jpg" alt="Free HTML5 Templates by gettemplates.co">
+                            <h3>MR BHAVESH VAGHELA</h3>
+                            <strong class="role">Academy Expert & Senior Technical Educato</strong>
+                            <p>Mr BHAVESH vaghela are student In indian best hair artits JAWED HABIB..</p>
+                            <ul class="gtco-social-icons">
+                                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
+                            <div class="gtco-staff">
+                                <img src="images/person_1.jpg" alt="Free HTML5 Templates by gettemplates.co">
+                                <h3>MR BHANJI SHARMA</h3>
+                                <strong class="role">HAIR TRAINNER</strong>
+                                <p>Mr sanjay vaghela are student In indian best hair artits JAWED HABIB..</p>
+                                <ul class="gtco-social-icons">
+                                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="mainwrap" style="background:grey url() 50% 0;background-size:cover;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4; text-align:center;min-height:200px;margin-top:0%; padding-bottom:3%;">
+                            <div class="main clearfix" align="center">
+                                    <div class="title-block-wrap" style="padding:40px 0 0px 0;">
+                                        <h2 style="color:#333333" class="titleborderh2 ">See All Our Courses Classifications</h2>
+                                    </div>
+                                <div>
+                                    <div class="row animate-box">
+                                        <div class="owl-carousel owl-carousel-carousel">
+                                            <div class="div-counter-block " style="padding-top:2%;">
+
+                                                <div class="div-course-item" style="">
+                                                     <div class="item">
+                                            <div class="div-course-img  ">
+                                                <img src="images/selecthair.jpg" alt="Courses" width="10%" height="50%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            </div>
+                                                <div class="div-course-name">Hair Courses</div>
+                                                <div align="center">
+                                                    <a href="enrich-academy/hair-courses/2.html">
+                                                        <div class="readMoreCategory">
+                                                            Read More
+                                                        </div>
+                                                    </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="item">
+                                    <div class="div-counter-block " style="padding-top:2%;">
+                                        <div class="div-course-item " style="">
+
+                                            <div class="div-course-img">
+                                                <img src="images/selecthair.jpg" width="20%" height="50%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            </div>
+
+                                            <div>
+                                                <div class="div-course-name">Beauty courses</div>
+                                                <div align="center">
+                                                    <a href="enrich-academy/beauty-courses/1.html">
+                                                        <div class="readMoreCategory">
+                                                            Read More
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="div-counter-block " style="padding-top:2%;">
+                                        <div class="div-course-item" style="">
+
+                                            <div class="div-course-img">
+                                                <img src="images/selecthair.jpg" alt="Courses" width="20%" height="50%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            </div>
+
+                                            <div>
+                                                <div class="div-course-name">Makeup Courses</div>
+                                                <div align="center">
+                                                    <a href="enrich-academy/makeup-courses/3.html">
+                                                        <div class="readMoreCategory">
+                                                            Read More
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="item">
+                                    <div class="div-counter-block " style="padding-top:2%;">
+                                        <div class="div-course-item" style="margin-right: 0px !important;">
+
+                                            <div class="div-course-img">
+                                                <img src="images/selecthair.jpg" alt="Courses" width="20%" height="50%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            </div>
+
+                                            <div>
+                                                <div class="div-course-name">Salon Management Courses</div>
+                                                <div align="center">
+                                                    <a href="enrich-academy/salon-management-courses/4.html">
+                                                        <div class="readMoreCategory">
+                                                            Read More
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+
+>>>>>>> origin/master
 
 
 

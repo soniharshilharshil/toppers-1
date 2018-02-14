@@ -1,6 +1,17 @@
 <?php
 /**
  * Created by PhpStorm.
+<<<<<<< HEAD
+=======
+ * User: JAY RAJPUTANA
+ * Date: 9/2/18
+ * Time: 10:46 AM
+ */
+?>
+<?php
+/**
+ * Created by PhpStorm.
+>>>>>>> origin/master
  * User: Vaibhav Shah
  * Date: 1/25/2018
  * Time: 10:01 PM
@@ -121,6 +132,7 @@
 
             <div class="div-parent-block-productType">
                 <div class="div-trending-block">
+<<<<<<< HEAD
                     </div>
                 <div class="col-md-3">
                 <a href="products/cleaning-material/1.html">
@@ -136,6 +148,22 @@
                 </a>
             </div>
                 <div class="col-md-3">
+=======
+                </div>
+                <div class="col-md-3">
+                    <a href="cleaning-material.php">
+                        <div class="div-product-item-subcat">
+                            <div class="div-product-img-subcat" align="center">
+                                <img src="images/Product/0d29c86f-f326-4cba-9e44-99499d66da89.jpg" width="100%" />
+                            </div>
+                            <div class="product-overlay">
+                                <div class="div-prod-title-subcat">Cleaning Material</div>                            </div>
+                        </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+>>>>>>> origin/master
                 <a href="products/conditioners/2.html">
                     <div class="div-product-item-subcat">
                         <div class="div-product-img-subcat" align="center">
@@ -146,8 +174,13 @@
                         </div>
                     </div>
                 </a>
+<<<<<<< HEAD
                 </div>
                     <div class="col-md-3">
+=======
+            </div>
+            <div class="col-md-3">
+>>>>>>> origin/master
                 <a href="products/hair-and-scalp-treatments/3.html">
                     <div class="div-product-item-subcat">
                         <div class="div-product-img-subcat" align="center">
@@ -158,7 +191,11 @@
                         </div>
                     </div>
                 </a>
+<<<<<<< HEAD
                     </div>
+=======
+            </div>
+>>>>>>> origin/master
             <div class="col-md-3">
                 <a href="products/hair-oil/4.html">
                     <div class="div-product-item-subcat">
@@ -184,7 +221,11 @@
                 </a>
             </div>
             <div class="col-md-3">
+<<<<<<< HEAD
                 <a href="products/sprays-and-gels/7.html">
+=======
+                <a href="beardo.php">
+>>>>>>> origin/master
                     <div class="div-product-item-subcat">
                         <div class="div-product-img-subcat" align="center">
                             <img src="images/Product/fd7f3e2c-8378-46c1-934c-f794736933ac.jpg" width="100%" />
@@ -303,6 +344,7 @@
                     </div>
                 </a>
             </div>
+<<<<<<< HEAD
             </div>
 
         </div>
@@ -359,11 +401,73 @@
                         <li><a href="#"><i class="icon-dribbble"></i></a></li>
                     </ul>
                     </p>
+=======
+        </div>
+
+    </div>
+</div>
+<footer id="gtco-footer" role="contentinfo">
+    <div class="gtco-container">
+        <div class="row row-pb-md">
+
+            <div class="col-md-4">
+                <div class="gtco-widget">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-md-push-1">
+                <div class="gtco-widget">
+                    <h3>Links</h3>
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Terms of services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="admin.php">Administrator</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="gtco-widget">
+                    <h3>Get In Touch</h3>
+                    <ul class="gtco-quick-contact">
+                        <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
+                        <li><a href="#"><i class="icon-mail2"></i> HSONI.123442@GMAIL.COM</a></li>
+                        <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+                    </ul>
+>>>>>>> origin/master
                 </div>
             </div>
 
         </div>
+<<<<<<< HEAD
     </footer>
+=======
+
+        <div class="row copyright">
+            <div class="col-md-12">
+                <p class="pull-left">
+                    <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+                    <small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+                </p>
+                <p class="pull-right">
+                <ul class="gtco-social-icons pull-right">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+>>>>>>> origin/master
 </div>
 
 <div class="gototop js-top">
@@ -392,3 +496,7 @@
 </html>
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master

@@ -124,6 +124,7 @@
         </div>
     </nav>
 
+<<<<<<< HEAD
     <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
@@ -137,6 +138,11 @@
                     </div>
                 </div>
             </div>
+=======
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+        <div class="overlay"></div>
+        <div class="gtco-container">
+>>>>>>> origin/master
         </div>
     </header>
 
@@ -145,6 +151,14 @@
     <div class="services">
         <div class="row MP-zero">
             <div class="col-md-12 MP-zero">
+<<<<<<< HEAD
+=======
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+>>>>>>> origin/master
 
                 <a name="facial"></a>
                 <div class="box-services">
@@ -209,6 +223,7 @@
                                             <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
                                         </tr>-->
                                         <tr>
+<<<<<<< HEAD
                                             <td class="td1">
                                                 Glistening Dew
                                             </td>
@@ -317,6 +332,116 @@
                                             <td class="td2">30 min</td>
                                             <td class="td3">&#x20B9; 1380</td>
                                             <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+=======
+                                            <td class="td1 chaman">
+                                                Glistening Dew
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Eternal Hydro
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Pureza
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Enlighten
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1449</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Oxygeneting
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1576</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                All Bright
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1817</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                White Tea
+                                            </td>
+                                            <td class="td2 chaman">45 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1817</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                GloVite
+                                            </td>
+                                            <td class="td2 chaman">80 min</td>
+                                            <td class="td3 chaman">&#x20B9; 2116</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Vitalift
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 2657</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Magnetic Wellbeing
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 2714</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Velvet
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 3025</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Marine Magic Mask
+                                            </td>
+                                            <td class="td2 chaman">30 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1150</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                Sparkle Mask
+                                            </td>
+                                            <td class="td2 chaman">30 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1380</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png"/></td>
+>>>>>>> origin/master
                                         </tr>
 
 

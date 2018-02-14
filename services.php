@@ -4,7 +4,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Toppers the family salon and institute</title>
+	<title>The Toppers...</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -60,7 +60,11 @@
 			<div class="row">
 				<div class="col-md-12 text-right gtco-contact">
 					<ul class="">
+<<<<<<< HEAD
 						<li><a href="#"><i class="ti-mobile"></i> +1 (0)123 456 7890 </a></li>
+=======
+						<li><a href="#"><i class="ti-mobile"></i>+91 8264686566 </a></li>
+>>>>>>> origin/master
 						<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
 						<li><a href="#"><i class="icon-mail2"></i></a></li>
 						<li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -69,7 +73,11 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
+<<<<<<< HEAD
 					<div id="gtco-logo"><a href="index.php">Aesthetic <em>.</em></a></div>
+=======
+					<div id="gtco-logo"><a href="index.php">Toppers Family salon <em>.</em></a></div>
+>>>>>>> origin/master
 				</div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -102,12 +110,21 @@
 	<header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
+<<<<<<< HEAD
 
         </div>
 	</header>
 
 
 
+=======
+
+        </div>
+	</header>
+
+
+
+>>>>>>> origin/master
         <div class="services">
             <div class="row MP-zero">
                 <div class="col-md-12 MP-zero">
@@ -116,6 +133,7 @@
                             <h2>Our Services</h2>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="box-services">
                         <div class="row">
                             <div class="redcolor">
@@ -134,6 +152,30 @@
                                 </div>
                             <div class="col-md-2">
                                 <div class="box-services1 " onClick="location.href = 'hair.php'">
+=======
+                    <a name="facial"></a>
+                    <div class="box-services">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'services.php'">
+                                    <img src="images/services/facial-s-hover.jpg" alt="belita hover" class="img-responsive"/>
+                                    <p class="p1"><a href="services.php">Facial</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="box-services1" onClick="location.href = 'skin.php'">
+
+                                    <img src="images/services/skin.jpg" alt="body spa" class="img-responsive imgHoverable"/>
+                                    <p><a href="skin.php" class="service-1">Skin Care</a></p>
+
+                                </div>
+
+                                </div>
+
+                            <div class="col-md-2">
+                                <div class="box-services1" onClick="location.href = 'hair.php'">
+>>>>>>> origin/master
                                     <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
                                     <p><a href="hair.php">Hair Care</a></p>
                                 </div>
@@ -158,6 +200,7 @@
                             </div>
 
                         </div>
+<<<<<<< HEAD
 
                     </div>
 
@@ -363,6 +406,211 @@
 
                     </div>
                 </footer>
+=======
+
+                    </div>
+
+                    <div class="container" style="max-width:100%; width:95%">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <br/>
+                                <div class="mumbai-powai-prices">
+                                    <div class="table-responsive service-table">
+                                        <table class="table" style="border:1px #ddd solid">
+                                            <tbody>
+
+                                            <!--<tr>
+                                                <td class="td1">
+                                                    Pure Pamper
+                                                </td>
+                                                <td class="td2">45 min</td>
+                                                <td class="td3">&#x20B9; 1093</td>
+                                                <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>-->
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Glistening Dew
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td><a href="book.php"><img src="images/services/book.png" </td></a>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Eternal Hydro
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td><img src="images/services/book.png"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Pureza
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 909</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Enlighten
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1449</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Oxygeneting
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1576</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    All Bright
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    White Tea
+                                                </td>
+                                                <td class="td2 chaman">45 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1817</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    GloVite
+                                                </td>
+                                                <td class="td2 chaman">80 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2116</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Vitalift
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2657</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Magnetic Wellbeing
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 2714</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Velvet
+                                                </td>
+                                                <td class="td2 chaman">60 min</td>
+                                                <td class="td3 chaman">&#x20B9; 3025</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Marine Magic Mask
+                                                </td>
+                                                <td class="td2 chaman">30 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1150</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1 chaman">
+                                                    Sparkle Mask
+                                                </td>
+                                                <td class="td2 chaman">30 min</td>
+                                                <td class="td3 chaman">&#x20B9; 1380</td>
+                                                <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
+                                            </tr>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                <footer id="gtco-footer" role="contentinfo">
+		<div class="gtco-container">
+			<div class="row row-pb-md">
+
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-md-push-1">
+					<div class="gtco-widget">
+						<h3>Links</h3>
+						<ul class="gtco-footer-links">
+							<li><a href="#">Knowledge Base</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Terms of services</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+                            <li><a href="admin.php">Administrator</a></li>
+						</ul>
+
+
+
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>Get In Touch</h3>
+						<ul class="gtco-quick-contact">
+							<li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
+							<li><a href="#"><i class="icon-mail2"></i>HSONI.123442@GMAIL.COM</a></li>
+							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12">
+					<p class="pull-left">
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+						<small class="block">Designed by<a>VAIBHAV HARSHIL SUNIL</a></small>
+					</p>
+					<p class="pull-right">
+						<ul class="gtco-social-icons pull-right">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+>>>>>>> origin/master
 	</div>
 
 	<div class="gototop js-top">
