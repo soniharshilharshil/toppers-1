@@ -137,7 +137,6 @@
     <div class="services">
         <div class="row MP-zero">
             <div class="col-md-12 MP-zero">
-
                 <a name="facial"></a>
                 <div class="box-services">
                     <div class="row">
@@ -148,20 +147,20 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="box-services1" onClick="location.href = "services.php'">
-                                <img src="images/services/facial-s-hover.jpg" alt="body spa" class="img-responsive imgHoverable"/>
+                            <div class="box-services1" onClick="location.href = 'services.php'">
+                                <img src="images/services/facial-s-hover.jpg" alt="body spa" class="img-responsive"/>
                                 <p><a href="index.php">Skin Care</a></p>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href = 'hair.php'">
-                                <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive imgHoverable"/>
+                                <img src="images/services/hair-s.jpg" alt="Hair care" class="img-responsive"/>
                                 <p><a href="hair.php">Hair Care</a></p>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href =     'hands.php'">
-                                <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
+                                <img src="images/services/body-s.jpg" alt="body care" class="img-responsive"/>
                                 <p><a href="hands.php">Hands & Feet</a></p>
                             </div>
                         </div>

@@ -4,11 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Toppers..!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
-    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-    <meta name="author" content="gettemplates.co" />
-
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content=""/>
     <meta property="og:image" content=""/>
@@ -19,7 +14,6 @@
     <meta name="twitter:image" content="" />
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
-
     <link rel="stylesheet" href="css/animate.css">
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="css/icomoon.css">
@@ -43,7 +37,6 @@
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]-->
     <script src="js/respond.min.js"></script>
-    <![endif]-->
 
 
 </head>
@@ -112,147 +105,78 @@
         </div>
     </div>
     <div class="row row-pb-md">
-        <div class="col-md-6 col-md-9 col-md-offset-2 text-center gtco-heading animate-box">
+        <div class="col-md-12 col-md-offset-2 text-center gtco-heading animate-box">
             <form action="payment.php" method="post">
                 <div class="row form-group">
                     <div class="col-md-3">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
                         <select class="form-control">
                             <option>Sanjay</option>
                             <option>bhavesh</option>
                             <option>Javed</option></select>
-                        <br>
+                    </div>
+                    <div class="col-md-3">
                             <label class="sr-only" for="name">Date</label>
                             <input type="Date" id="name" class="form-control blockt=bd" placeholder="Date">
                     </div>
-                    <div class="row form-group">
-                    <div class="col-md-3">
-                        <table>
-                        <?php
-                                $st1=0;$st2=0;$st3=0;$st4=0;
-                                $con=new mysqli('localhost','root','','demo');
-                                $sql="Select * from timeslot";
-                                $result=$con->query($sql);
-                                //$data[20];
-                                $i=0;
-                                while($row=mysqli_fetch_row($result)) {
-                                    $data[$i]=$row[2];
-                                    $i++;
-                                echo $data["0"];
-                                }
-                                    if ($row[2] == "10:00 - 11:00" && $st1==0) {
-                                            echo "<tr><td>1 10:00-11:00";
-                                            echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary disabled/></td></tr>";
-                                        $st1=1;
-                                    }
-                                            elseif($row[2] == "10:00 - 11:00"&& $st1!=1){
-                                            echo "<tr><td>2 10:00-11:00";
-                                            echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary/></td></tr>";
-                                            $st1=1;
-                                    }
-                                    if ($data[2] == "11:00 - 12:00"&& $st2==0) {
-                                        echo "<tr><td>3 11:00-12:00";
-                                        echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary disabled/></td></tr>";
-                                        $st2=2;
-                                    }
-                                     else{
-                                            echo "<tr><td>4 11:00-12:00";
-                                            echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary/></td></tr>";
-                                    $st2=2;
-                                    }
-                                    if ($data[2] == "12:00 - 13:00" && $st3==0) {
-                                        echo "<tr><td>5 12:00-13:00";
-                                        echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary disabled/></td></tr>";
-                                        $st3=3;
-                                    }
-                                    else{
-                                            echo "<tr><td>6 12:00-13:00";
-                                            echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary/></td></tr>";
-                                    $st3=3;
-                                    }
-                                    if ($data[2] == "13:00 - 14:00" && $st4==0) {
-                                        echo "<tr><td>7 13:00-14:00";
-                                        echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary disabled/></td></tr>";
-                                        $st4=4;
-                                    }
-                                    else{
-                                            echo "<tr><td>8 13:00-14:00";
-                                            echo "<td>&nbsp;<input type=submit value=Book Name=Book class=btn btn - primary/></td></tr>";
-                                    $st4=4;
-                                    }
+                </div>
+                <?php
+                    $st1=0;$st2=0;$st3=0;$st4=0;
+                    $con=new mysqli('localhost','root','','demo');
+                    $sql="Select * from timeslot";
+                    $result=$con->query($sql);
+                    $i=0;
+                    while($row=mysqli_fetch_row($result))
+                    {
+                        $data[$i]=$row[3];
+                        $i++;
+                    }
+                    echo "<div class=row form-group>";
+                    echo "<div class=col-md-4>";
+                        echo "<table>";
+                            echo "<tr><td>10:00-11:00</td><td>";
+                            if($data[$i]==1)
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=1 class=btn btn - primary disabled/></td></tr>";
+                            echo "<tr><td>11:00-12:00</td><td>";
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=2 class=btn btn - primary disabled/></td></tr>";
+                            echo "<tr><td>12:00-13:00</td><td>";
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=3 class=btn btn - primary disabled/></td></tr>";
+                            echo "<tr><td>13:00-14:00</td><td>";
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=4 class=btn btn - primary disabled/></td></tr>";
+                            echo "<tr><td>14:00-15:00</td><td>";
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=5 class=btn btn - primary disabled/></td></tr>";
+                            echo "<tr><td>15:00-16:00</td><td>";
+                            echo "<td>&nbsp;<input type=submit value=Book Name=Book id=6 class=btn btn - primary disabled/></td></tr>";
+                        echo "</table>";
+                    echo "</div>";
+                echo "<div class=col-md-4>";
 
-                                ?>
-                        </table>
-                    </div>
+                echo "<table>";
+                        echo "<tr><td>10:00-11:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=1 class=btn btn - primary disabled/></td></tr>";
+                        echo "<tr><td>11:00-12:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=2 class=btn btn - primary disabled/></td></tr>";
+                        echo "<tr><td>12:00-13:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=3 class=btn btn - primary disabled/></td></tr>";
+                        echo "<tr><td>13:00-14:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=4 class=btn btn - primary disabled/></td></tr>";
+                        echo "<tr><td>14:00-15:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=5 class=btn btn - primary disabled/></td></tr>";
+                        echo "<tr><td>15:00-16:00</td><td>";
+                        echo "<td>&nbsp;<input type=submit value=Book Name=Book id=6 class=btn btn - primary disabled/></td></tr>";
+                echo "</table>";
+                echo "</div>";
+                      ?>
+
+                <div class="form-group  col-md-8 text-center">
+                            <input type="submit" value="Book" Name="Book" class="btn btn-primary btn-lg">
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="form-group  col-md-10 text-center">
-                    <input type="submit" value="Book" Name="Book" class="btn btn-primary btn-lg">
-                </div>
-
-            </form>
+        </form>
         </div>
-         <footer id="gtco-footer" role="contentinfo">
-            <div class="gtco-container">
-                <div class="row row-p	b-md">
-                    <div class="col-md-4">
-                        <div class="gtco-widget">
-                            <h3>About Us</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-md-push-1">
-                        <div class="gtco-widget">
-                            <h3>Links</h3>
-                            <ul class="gtco-footer-links">
-                                <li><a href="services.php">Services</a></li>
-                                <li><a href="portfolio.php">portfolio</a></li>
-                                <li><a href="contact.php">Contact us</a></li>
-                                <li><a href="#">Terms of services</a></li>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="admin.php">Administrator</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="gtco-widget">
-                            <h3>Get In Touch</h3>
-                            <ul class="gtco-quick-contact">
-                                <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
-                                <li><a href="#"><i class="icon-mail2"></i> hsoni.123442@gmail.com</a></li>
-                                <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row copyright">
-                    <div class="col-md-12">
-                        <p class="pull-left">
-                            <small class="block">&copy; 2018. All Rights Reserved by Toppers Family Salon.</small>
-                            <small class="block">Designed by Vaibhav ,Harshill, Sunil</small>
-                        </p>
-                        <p class="pull-right">
-                        <ul class="gtco-social-icons pull-right">
-                            <li><a href="#"><i class="icon-twitter"></i></a></li>
-                            <li><a href="#"><i class="icon-facebook"></i></a></li>
-                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
-    </div>
+<?php
+    include "footer.php";
+?>
 
     <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
