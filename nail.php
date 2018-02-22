@@ -124,25 +124,9 @@
         </div>
     </nav>
 
-<<<<<<< HEAD
-    <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-        <div class="overlay"></div>
-        <div class="gtco-container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="display-t">
-                        <div class="display-tc">
-                            <h1 class="animate-box" data-animate-effect="fadeInUp">Our Services</h1>
-                            <h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-=======
     <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
->>>>>>> origin/master
         </div>
     </header>
 
@@ -151,14 +135,11 @@
     <div class="services">
         <div class="row MP-zero">
             <div class="col-md-12 MP-zero">
-<<<<<<< HEAD
-=======
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
                         <h2>Our Services</h2>
                     </div>
                 </div>
->>>>>>> origin/master
 
                 <a name="facial"></a>
                 <div class="box-services">
@@ -182,9 +163,9 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="box-services1" onClick="location.href =     'hands.php'">
+                            <div class="box-services1" onClick="location.href =     'waxing.php'">
                                 <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
-                                <p><a href="hands.php">Hands & Feet</a></p>
+                                <p><a href="waxing.php">Waxing</a></p>
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -223,116 +204,6 @@
                                             <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
                                         </tr>-->
                                         <tr>
-<<<<<<< HEAD
-                                            <td class="td1">
-                                                Glistening Dew
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 909</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                Eternal Hydro
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 909</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                Pureza
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 909</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                Enlighten
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 1449</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                Oxygeneting
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 1576</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                All Bright
-                                            </td>
-                                            <td class="td2">60 min</td>
-                                            <td class="td3">&#x20B9; 1817</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                White Tea
-                                            </td>
-                                            <td class="td2">45 min</td>
-                                            <td class="td3">&#x20B9; 1817</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                GloVite
-                                            </td>
-                                            <td class="td2">80 min</td>
-                                            <td class="td3">&#x20B9; 2116</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                Vitalift
-                                            </td>
-                                            <td class="td2">60 min</td>
-                                            <td class="td3">&#x20B9; 2657</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                Magnetic Wellbeing
-                                            </td>
-                                            <td class="td2">60 min</td>
-                                            <td class="td3">&#x20B9; 2714</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                Velvet
-                                            </td>
-                                            <td class="td2">60 min</td>
-                                            <td class="td3">&#x20B9; 3025</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1">
-                                                Marine Magic Mask
-                                            </td>
-                                            <td class="td2">30 min</td>
-                                            <td class="td3">&#x20B9; 1150</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1">
-                                                Sparkle Mask
-                                            </td>
-                                            <td class="td2">30 min</td>
-                                            <td class="td3">&#x20B9; 1380</td>
-                                            <td class="cart-button-container"><img src="../img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-=======
                                             <td class="td1 chaman">
                                                 Glistening Dew
                                             </td>
@@ -441,7 +312,6 @@
                                             <td class="td2 chaman">30 min</td>
                                             <td class="td3 chaman">&#x20B9; 1380</td>
                                             <td class="cart-button-container"><img src="images/services/book.png"/></td>
->>>>>>> origin/master
                                         </tr>
 
 

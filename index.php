@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -29,6 +31,10 @@
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+
+
         <!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -42,7 +48,22 @@
 	<body>
 	<div class="gtco-loader"></div>
 	<div id="page">
-	<nav class="gtco-nav" role="navigation">
+        <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+            <div class="overlay"></div>
+            <div class="gtco-container">
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0 text-left">
+                        <div class="display-t">
+                            <div class="display-tc">
+                                <h1 class="animate-box" data-animate-effect="fadeInUp">Your Beauty To The Next Level</h1>
+                                <p class="animate-box" data-animate-effect="fadeInUp"><a href="book.php" class="btn btn-white btn-lg btn-outline">Book Appointment</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-12 text-right gtco-contact">
@@ -56,11 +77,8 @@
 			</div>
 			<div class="row">
                 <div class="col-sm-4 col-xs-12">
-<<<<<<< HEAD
-                    <div id="gtco-logo"><img src="images/toppers.png" height="100" width="100"> <em>.</em></a></div>
-=======
-                    <div id="gtco-logo"><img src="css/toppers.png" height="100" width="100"> <em>.</em></a></div>
->>>>>>> origin/master
+                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+
                 </div>
                 <div class="col-xs-8 text-right menu-1">
 					<ul>
@@ -78,30 +96,11 @@
                             <li><a href="education.php">Academic</a></li>
 						    <li><a href="contact.php">Contact</a></li>
                             <li><a href="login.php">Login</a></li>
-<<<<<<< HEAD
-                        <li><a href="userprofile.php">my Acoount</a></li>
-=======
->>>>>>> origin/master
                         </ul>
                     </div>
 			</div>
 		</div>
 	</nav>
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-left">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Beauty To The Next Level</h1>
-							<p class="animate-box" data-animate-effect="fadeInUp"><a href="book.php" class="btn btn-white btn-lg btn-outline">Book Appointment</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
 	<div id="gtco-features-3">
 		<div class="gtco-container">
 			<div class="gtco-flex">
@@ -122,11 +121,7 @@
 						</span>
 						<h3>offers</h3>
 						<p>Click hear and check various special offers and announcement for you.</p>
-<<<<<<< HEAD
-						<p><a href="offers.php" class="btn btn-white btn-outline">Let's Go</a></p>
-=======
 						<p><a href="offers.php " class="btn btn-white btn-outline">Let's Go</a></p>
->>>>>>> origin/master
 					</div>
 				</div>
 				<div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
@@ -157,11 +152,7 @@
                     <div class="col-md-3">
                     <img src="images/aboutus/service.png" alt="service" class="img-responsive"/>
                     <h2>
-<<<<<<< HEAD
-                        <div class="redcolor">SELECT SERVICE</div>
-=======
                         <div class="redcolor">Select Services</div>
->>>>>>> origin/master
                         Choose from a wide range of beauty services offered directly to your doorstep.
                     </h2>
                     </div>
@@ -170,11 +161,7 @@
                     <div class="col-md-3">
                     <img src="images/aboutus/date.png" alt="date icon image" class="img-responsive"/>
                     <h2>
-<<<<<<< HEAD
-                        <div class="redcolor">PICK TIME AND DATE</div>
-=======
                         <div class="redcolor">Pick Date and Time</div>
->>>>>>> origin/master
                         Book beauty sessions at your convenience, anytime and anywhere in Bhuj.
                     </h2>
                     </div>
@@ -183,11 +170,7 @@
                     <div class="col-md-3">
                     <img src="images/aboutus/receive.png" alt="recieve" class="img-responsive"/>
                     <h2>
-<<<<<<< HEAD
-                        <div class="redcolor">RECEIVE CONFIRMATION</div>
-=======
                         <div class="redcolor">Receive Confirmation</div>
->>>>>>> origin/master
                         Upon booking, you'll immediately receive confirmation with relevant details.
                     </h2>
                     </div>
@@ -196,11 +179,7 @@
                     <div class="col-md-3">
                     <img src="images/aboutus/enjoy.png" alt="pamper yourself" class="img-responsive"/>
                     <h2>
-<<<<<<< HEAD
-                        <div class="redcolor">ENJOY EXPERIENCE</div>
-=======
                         <div class="redcolor">Enjoy the Experience</div>
->>>>>>> origin/master
                         Relax and enjoy the pampering because ladies, you deserve it.
                     </h2>
                     </div>
@@ -217,29 +196,6 @@
                         <h2>Our Works</h2>
                     </div>
                 </div>
-<<<<<<< HEAD
-
-                <div class="row row-pb-md">
-                    <div class="col-md-12">
-                        <ul id="gtco-portfolio-list">
-                            <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/manhair.jpg); "></li>
-                            <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/skingirl.jpg); "></li>
-                            <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s1.jpg); "></li>
-                            <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s2.jpg); "></li>
-                            <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/s5.jpg); "></li>
-                            <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); "></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4 text-center animate-box">
-                        <a href="services.php" class="btn btn-white btn-outline btn-lg btn-block">See All Our Works</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-=======
 
                 <div class="row row-pb-md">
                     <div class="col-md-12">
@@ -307,9 +263,9 @@
             </div>
         </div>
 
->>>>>>> origin/master
         <div id="gtco-counter" class="gtco-section">
 		<div class="gtco-container">
+
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Fun Facts</h2>

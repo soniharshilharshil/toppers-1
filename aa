@@ -1,0 +1,19 @@
+
+                                    <div class="div-counter-block " style="padding-top:2%;">
+                                        <div class="item col-md-3">
+                                        <div class="div-course-item " style="">
+
+                                            <div class="div-course-img">
+                                                <img src="images/selecthair.jpg" width="20%" height="50%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            </div>
+                                                <div class="div-course-name">Beauty courses</div>
+                                                <div align="center">
+                                                    <a href="enrich-academy/beauty-courses/1.html">
+                                                        <div class="readMoreCategory">
+                                                            Read More
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                        </div>
+                                        </div>
+                                    </div>

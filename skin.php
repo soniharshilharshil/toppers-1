@@ -53,11 +53,7 @@
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
-<<<<<<< HEAD
-    <!--[if lt IE 9]-->
-=======
     <!--[if lt IE 9]>
->>>>>>> origin/master
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
@@ -120,26 +116,10 @@
         </div>
     </nav>
 
-<<<<<<< HEAD
-    <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-        <div class="overlay"></div>
-        <div class="gtco-container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="display-t">
-                        <div class="display-tc">
-                            <h1 class="animate-box" data-animate-effect="fadeInUp">Our Services</h1>
-                            <h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-=======
     <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
 
->>>>>>> origin/master
         </div>
     </header>
 
@@ -148,14 +128,11 @@
     <div class="services">
         <div class="row MP-zero">
             <div class="col-md-12 MP-zero">
-<<<<<<< HEAD
-=======
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
                         <h2>Our Services</h2>
                     </div>
                 </div>
->>>>>>> origin/master
 
                 <a name="facial"></a>
                 <div class="box-services">
@@ -179,9 +156,9 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="box-services1" onClick="location.href =     'hands.php'">
+                            <div class="box-services1" onClick="location.href =     'waxing.php'">
                                 <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
-                                <p><a href="hands.php">Hands & Feet</a></p>
+                                <p><a href="waxing.php">Waxing</a></p>
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -221,115 +198,71 @@
                                         </tr>-->
                                         <tr>
                                             <td class="td1 chaman">
-                                                Glistening Dew
+                                                UNDER ARMS
                                             </td>
-                                            <td class="td2 chaman">45 min</td>
-                                            <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 99</td>
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Eternal Hydro
+                                                FEET & PALMS
                                             </td>
-                                            <td class="td2 chaman">45 min</td>
-                                              <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="td2 chaman">60 min</td>
+                                              <td class="td3 chaman">&#x20B9; 150</td>
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                Pureza
+                                                STOMACH
                                             </td>
-                                            <td class="td2 chaman">45 min</td>
-                                            <td class="td3 chaman">&#x20B9; 909</td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 200</td>
                                             <td class="cart-button-container"><img src="images/services/book.png"/></td>
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                Enlighten
-                                            </td>
-                                            <td class="td2 chaman">45 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1449</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                Oxygeneting
-                                            </td>
-                                            <td class="td2 chaman">45 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1576</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                All Bright
+                                                FULL FRONT & BACK
                                             </td>
                                             <td class="td2 chaman">60 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1817</td>
+                                            <td class="td3 chaman">&#x20B9; 1200</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                FULL BODY
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 1599</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1 chaman">
+                                                FACE
+                                            </td>
+                                            <td class="td2 chaman">60 min</td>
+                                            <td class="td3 chaman">&#x20B9; 550</td>
                                             <td class="cart-button-container"><img src="images/services/book.png"/></td>
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                White Tea
-                                            </td>
-                                            <td class="td2 chaman">45 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1817</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                GloVite
-                                            </td>
-                                            <td class="td2 chaman">80 min</td>
-                                            <td class="td3 chaman">&#x20B9; 2116</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                Vitalift
+                                                FACE & NECK
                                             </td>
                                             <td class="td2 chaman">60 min</td>
-                                            <td class="td3 chaman">&#x20B9; 2657</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png"/></td>
+                                            <td class="td3 chaman">&#x20B9; 250</td>
+                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Magnetic Wellbeing
+                                                FULL ARMS
                                             </td>
                                             <td class="td2 chaman">60 min</td>
-                                            <td class="td3 chaman">&#x20B9; 2714</td>
+                                            <td class="td3 chaman">&#x20B9; 600</td>
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                Velvet
-                                            </td>
-                                            <td class="td2 chaman">60 min</td>
-                                            <td class="td3 chaman">&#x20B9; 3025</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="td1 chaman">
-                                                Marine Magic Mask
-                                            </td>
-                                            <td class="td2 chaman">30 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1150</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-
-                                        </tr>
-                                        <tr>
-                                        <td class="td1 chaman">
-                                                Sparkle Mask
-                                        </td>
-                                            <td class="td2 chaman">30 min</td>
-                                            <td class="td3 chaman">&#x20B9; 1380</td>
-                                            <td class="cart-button-container"><img src="images/services/book.png" /></td>
-                                        </tr>
                                         </tbody>
                                     </table>
                                 </div>
