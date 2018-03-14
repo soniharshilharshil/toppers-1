@@ -1,3 +1,10 @@
+<?php
+session_start();
+include_once ("database/db_connection.php");
+?>
+
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -69,15 +76,50 @@
                         <li class="has-dropdown">
                             <a href="services.php">Services</a>
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="nail.php">Nail</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="services.php">Facial</a></li>
                             </ul>
                         </li>
                         <li><a href="education.php">Academic</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="vieworder.php">View Order</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="#modal1"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
                     </ul>
                 </div>
             </div>
@@ -85,12 +127,7 @@
     </nav>
     <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
-        <div class="gtco-container">
-            <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
 
-                </div>
-            </div>
     </header>
 
     <div id="gtco-products">
@@ -111,11 +148,11 @@
         <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
             <h2>STAY BEAUTIFUL...!</h2>
 
-            <form action="payment.php">
-                <input type="submit" value="Back" Name="Back" class="btn btn-primary btn-lg">
-            </form>
-            <form action="index.php"><input type="submit" value="Home" Name="Home" class="btn btn-primary btn-lg"></form>
 
+            <form action="index.php"><input type="submit" value="Home" Name="Home" class="btn btn-primary btn-lg"></form>
+<br>
+
+            <br>
 </div>
 
 

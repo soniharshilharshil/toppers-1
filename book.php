@@ -60,7 +60,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><img src="css/toppers.png" height="100" width="100"> <em>.</em></a></div>
+
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -85,12 +85,7 @@
     </nav>
     <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
-        <div class="gtco-container">
-            <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
-
-            </div>
-        </div>
+         </div>
     </header>
 
     <div id="gtco-products">
@@ -116,7 +111,7 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="name">Name</label>
-                                <input type="text" id="name" class="form-control" placeholder="Your firstname">
+                                <input type="text" name="name" class="form-control" placeholder="Your firstname" required disabled>
                             </div>
 
                         </div>
@@ -124,7 +119,7 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="email">Email</label>
-                                <input type="text" id="email" class="form-control" placeholder="Your email address">
+                                <input type="text" name="email" class="form-control" placeholder="Your email address" required disabled>
                             </div>
                         </div>
 
@@ -132,18 +127,34 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="email">Mobile Number</label>
-                                <input type="text" id="mobno" class="form-control" placeholder="+91">
+                                <input type="text" name="mobno" class="form-control" placeholder="+91" required disabled>
                             </div>
                         </div>
 
                         <div class="row form-group ">
                             <div class="col-md-12">
-                                <input type="text" id="service" class="form-control" placeholder="service">
+                                <input type="text" name="service" class="form-control" placeholder="service" required disabled>
                             </div>
                         </div>
+
+                        <div class="row form-group ">
+                            <div class="col-md-12">
+                                <input type="text" name="time" class="form-control" placeholder="timeing" required disabled>
+                            </div>
+                        </div>
+
+
+                        <div class="row form-group ">
+                            <div class="col-md-12">
+                                <input type="text" name="time" class="form-control" placeholder="price" required disabled>
+                            </div>
+                        </div>
+
+
                         <div class="form-group">
                             <input type="submit" value="Book" Name="Book" class="btn btn-primary btn-lg">
                         </div>
+
 
                     </form>
                 </div>

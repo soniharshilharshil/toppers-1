@@ -18,7 +18,7 @@ $c_id=$_REQUEST['cust_id'];
 
 $to=date("d/m/Y");
 
-$sql = "SELECT * FROM register_master where cust_id=$c_id";
+$sql = "SELECT * FROM customer_master where cust_id=$c_id";
 $result = mysql_query($sql);
 $no=1;
 if ($result) {

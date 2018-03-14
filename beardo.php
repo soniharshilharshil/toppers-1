@@ -1,3 +1,13 @@
+<?php
+include("header1.php");
+$pro_id=$_GET['product_id'];
+$sql = "SELECT * FROM product_master where product_id=".$pro_id."";
+$result = mysql_query($sql);
+if ($result) {
+// output data of each row
+$row = mysql_fetch_array($result)
+
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -105,27 +115,24 @@
         <div class="div-img-block">
                 <div class="flexslider">
                     <ul class="slides" style=" transition-duration: 0s; transform: translate3d(0px, 0px, 0px);align:center; ">
-                        <img src="images/product/sampoo.png " width="400" height="400" clas="imgimg" />
+                        <img src=<?php echo $row['product_img_url'];?> width="400" height="400" clas="imgimg" />
 
                     </ul>
                 </div>
             </div>
 
-
             <div class="div-content-block">
-                <h3>Fiberstrong Strengthening Shampoo</h3>
+                <h3><?php echo $row["product_name"];?></h3>
                 <hr />
-                <div class="div-detail-price">₹650</div>
+                <div class="div-detail-price">₹<?php echo $row["product_price"];?></div>
                 <div>
                     <p></p>
                     <table style="border-collapse: collapse; width: 295pt;" border="0" width="295" cellspacing="0" cellpadding="0"><colgroup><col style="mso-width-source: userset; mso-width-alt: 12586; width: 295pt;" width="295" /> </colgroup>
                         <tbody>
                         <tr style="height: 56.0pt;"><!--StartFragment-->
-                            <td class="xl63" style="height: 56.0pt; width: 295pt;" width="295" height="56">
-                                This Anti hair fall shampoo helps in creating a structural reinforcement system to strengthen weakened hair cuticles as they condition the hair for ultra -soft & smooth results.
-                                Hair breakage is reduced by 95% in just 1 application.*
-                                * With use of full treatment: Shampoo+Conditioner+Intra-Cylane strengthening Cream .</td>
-                            <!--EndFragment--></tr>
+                              <td class="xl63" style="height: 56.0pt; width: 295pt;" width="295" height="56">
+                            <?php  echo $row["product_dec"];?>
+                          </tr>
                         </tbody>
                     </table>
                 </div>
@@ -154,7 +161,9 @@
         </div>
         <div class="div-hr20"></div>
     </div>
-
+        <?php
+        }
+        ?>
 </div>
 
 

@@ -1361,6 +1361,12 @@ form label {
   background: #f2f2f2 !important;
   border-color: #f2f2f2 !important;
 }
+.btn-green:hover, .btn-green:focus, .btn-green:active {
+  color: forestgreen;
+  background: #f2f2f2 !important;
+  border-color: forestgreen !important;
+}
+
 .btn-white.btn-outline {
   color: #fff;
   border: 2px solid #fff;
@@ -1380,7 +1386,7 @@ form label {
   transition: 0.3s;
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
-  box-shadow: none;
+  box-shadow: forestgreen;
 }
 
 .btn.with-arrow {
@@ -1685,7 +1691,8 @@ form label {
   background: rgba(55, 75, 84, 0.7);
 }
 #gtco-portfolio-list li a.color-1:hover:before {
-  background: url("manhair.jpg");
+  background: #1CB94E;
+
 }
 #gtco-portfolio-list li a.color-2:before {
   background: rgba(37, 190, 213, 0.7);
@@ -2136,9 +2143,8 @@ span.psw {
 
 }
 .btnbtn {
-  margin-top: 350px;
-  padding-right: 150px;
-}
+  background: forestgreen;
+ }
 .div-course-detail-h {
   float: none !important;
   width: 100% !important;
@@ -2457,6 +2463,7 @@ padding-left: 45%;
   width: 100px;
   height: 35px;
   float: right;
+  margin-top: 5%;
   margin-right: 10%;
   color: #fff;
   background-color: #ED1C24;
@@ -2675,7 +2682,7 @@ padding-left: 45%;
 
 .box-services p, .box-services h6{font-size:13px;text-align:left;text-transform:uppercase;margin:0}
 
-.box-services p a{padding:10px 15px;background:forestgreen;color:#fff;text-align:left;display:block;margin:0;}
+.box-services p a{padding:10px 15px;background:red;color:#fff;text-align:left;display:block;margin:0;}
 
 .box-services p a{text-decoration:none}
 
@@ -3076,7 +3083,6 @@ padding-left: 45%;
 }
 .div-product-img-subcat {
   opacity: 1;
-  display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;

@@ -1,3 +1,18 @@
+
+<?php
+session_start();
+$conn=mysqli_connect("localhost","root","","toppers");
+
+$sql="SELECT * from offer_details  ";
+$result=mysqli_query($conn,$sql);
+
+If(mysqli_num_rows($result)>0) {
+
+while($row=mysqli_fetch_assoc($result)) {
+}
+
+
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -77,182 +92,161 @@
                         </li>
                         <li><a href="education.php">Academic</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+                            include_once ("database/db_connection.php");
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="vieworder.php">View Order</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="#modal1"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav>    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    </nav>
+    <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
-            <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
-
-                </div>
-            </div>
         </div>
     </header>
-</head>
+    <form method="POST"></form>
 
-<body>
+    <div id="gtco-history" class="gtco-section border-bottom animate-box">
+        <div class="gtco-container">
 
-
-<div class="row">
-    <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-        <h2>Offers</h2>
-        <p>Now The Festival is start...come on guys..the toppers family salon have do to all the new registred customer and our old customer some offer are given to you.....</p>
-    </div>
-</div>
-
-
-<div id="page">
-    <table class="containerr">
-
-        <tr>
-            <td class="tiles offerBlock" data-promo="RDAYCB">
-
-
-                        <span data-value="Use Code: TPFSM" class="offerTilebutton" id="offerTile" data-promo="RDAYCB">
-                            <span class="OfferValidity">Till: 29-Jan-2018</span>
-                            <div class="offer-icn">
-                                <span class="centered">
-                                    <img src="images/aboutus/service.png" hieght="100" width="100">
-                                </span>
-                            </div>
-                            <a href="login.php"> <span class="OfferDes"> Save upto Rs 50 on First User </span> <br /></a>
-                            <span class="OfferPro"> Use Code: TPFSMH</span>
-                        </span>
-
-            </td>
-            <td class="tiles offerBlock" data-promo="RDAY">
-
-
-                        <span data-value="Use Code: RDAY" class="offerTilebutton" id="offerTile" data-promo="RDAY">
-                            <span class="OfferValidity">Till: 29-Jan-2018</span>
-                            <div class="offer-icn">
-                                <span class="centered">
-                                    <img src="images/skindesign.jpg">
-                                </span>
-                            </div>
-                          <a href="login.php">  <span class="OfferDes"> Save upto Rs 250 on Skin care</span> <br /></a>
-                            <span class="OfferPro"> Use Code: TPFSMSC</span>
-                        </span>
-
-            </td>
-            <td class="tiles offerBlock" data-promo="SUPER">
-
-
-                        <span data-value="Use code SUPER" class="offerTilebutton" id="offerTile" data-promo="SUPER">
-                            <span class="OfferValidity">Till: 29-Jan-2018</span>
-                            <div class="offer-icn">
-                                <span class="centered">
-                                    <img src="images/selecthair.jpg">
-                                </span>
-                            </div>
-                            <span class="OfferDes"> Save Upto 45-50% in NAIL ART </span> <br />
-                            <span class="OfferPro"> Use code TPFSMNA</span>
-                        </span>
-
-            </td>
-
-
-        </tr>
-        </tr>
-    </table></div>
-
-
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-</div>
-
-<footer id="gtco-footer" role="contentinfo">
-    <div class="gtco-container">
-        <div class="row row-p	b-md">
-            <div class="col-md-4">
-                <div class="gtco-widget">
-                    <h3>About Us</h3>
-                    <p> We believe that you deserve to be beautiful without waiting
-                        in line at the parlour! We are kutch's first enterprise to
-                        bring the complete salon and wellness experience to your
-                        doorstep whenever you need it.
-                        Toppers goes all out to make you look like a million bucks
-                        wherever you are and whenever you want. Our staff of expert
-                        beauticians are trained to care and comfort you during your
-                        makeovers. Our passionate team turns this luxury into a
-                        convenience for women who want to be pampered.
-                        Just tell us when and where, and we'll be there! </p>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2>offers </h2>
                 </div>
             </div>
-
-            <div class="col-md-4 col-md-push-1">
-                <div class="gtco-widget">
-                    <h3>Links</h3>
-                    <ul class="gtco-footer-links">
-                        <li><a href="services.php">Services</a></li>
-
-                        <li><a href="contact.php">Contact us</a></li>
-                        <li><a href="#">Terms of services</a></li>
-                        <li><a href="about.php">About us</a></li>
-                        <li><a href="admin.php">Administrator</a></li>
-                    </ul>
-                </div>
+            <div class="div-trending-block">
+                <div class="txt-trending txt-subcat" style="text-transform:uppercase;">Our product</div>
             </div>
 
-            <div class="col-md-4">
-                <div class="gtco-widget">
-                    <h3>Get In Touch</h3>
-                    <ul class="gtco-quick-contact">
-                        <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
-                        <li><a href="#"><i class="icon-mail2"></i> hsoni.123442@gmail.com</a></li>
-                        <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
-                    </ul>
-                </div>
-            </div>
 
         </div>
 
-        <div class="row copyright">
-            <div class="col-md-12">
-                <p class="pull-left">
-                    <small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
-                    <small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
-                </p>
-                <p class="pull-right">
-                <ul class="gtco-social-icons pull-right">
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                </ul>
-                </p>
+        <?php
+        }
+        ?>
+        <footer id="gtco-footer" role="contentinfo">
+            <div class="gtco-container">
+                <div class="row row-p	b-md">
+                    <div class="col-md-4">
+                        <div class="gtco-widget">
+                            <h3>About Us</h3>
+                            <p> We believe that you deserve to be beautiful without waiting
+                                in line at the parlour! We are kutch's first enterprise to
+                                bring the complete salon and wellness experience to your
+                                doorstep whenever you need it.
+                                Toppers goes all out to make you look like a million bucks
+                                wherever you are and whenever you want. Our staff of expert
+                                beauticians are trained to care and comfort you during your
+                                makeovers. Our passionate team turns this luxury into a
+                                convenience for women who want to be pampered.
+                                Just tell us when and where, and we'll be there! </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-push-1">
+                        <div class="gtco-widget">
+                            <h3>Links</h3>
+                            <ul class="gtco-footer-links">
+                                <li><a href="services.php">Services</a></li>
+
+                                <li><a href="contact.php">Contact us</a></li>
+                                <li><a href="#">Terms of services</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="admin.php">Administrator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="gtco-widget">
+                            <h3>Get In Touch</h3>
+                            <ul class="gtco-quick-contact">
+                                <li><a href="#"><i class="icon-phone"></i> +91 8264686566</a></li>
+                                <li><a href="#"><i class="icon-mail2"></i> hsoni.123442@gmail.com</a></li>
+                                <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="pull-left">
+                            <small class="block">&copy; 2017 Toppers . All Rights Reserved.</small>
+                            <small class="block">Designed by HARSHIL VAIBHAV SUNIL</small>
+                        </p>
+                        <p class="pull-right">
+                        <ul class="gtco-social-icons pull-right">
+                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
             </div>
-        </div>
-
+        </footer>
     </div>
-</footer>
-</div>
 
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-</div>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
 
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Carousel -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- countTo -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Magnific Popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
-<!-- Main -->
-<script src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
 
 
 </body>

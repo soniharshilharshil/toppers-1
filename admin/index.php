@@ -8,6 +8,21 @@ if(!isset($_SESSION['login_user']))
 include("db.php");
 include("header.php");
 
+$sql = "SELECT * FROM customer_master where status=1";
+$result = mysql_query($sql);
+if($result)
+{
+    $cus=mysql_num_rows ($result);
+}
+
+
+$sql = "SELECT * FROM product_master where status=1";
+    $result = mysql_query($sql);
+if($result)
+{
+    $pro=mysql_num_rows ($result);
+}
+
 ?>
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
@@ -27,7 +42,7 @@ include("header.php");
 		<div class="row">
 			<div class="col-xs-12 col-md-6 col-lg-3">
 				
-					<a href="patient_request.php">	
+					<a href="appointment.php">
 				<div class="panel panel-blue panel-widget ">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -48,7 +63,7 @@ include("header.php");
 				</a>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-3">
-				<a href="patient.php">	
+				<a href="customer.php">
 	<div class="panel panel-orange panel-widget">
 					<div class="row no-padding">
 					
@@ -58,16 +73,16 @@ include("header.php");
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
 							<div class="large">
-
+                            <?php echo $cus; ?>
 							</div>
-							<div class="text-muted">Patients</div>
+							<div class="text-muted">Customer</div>
 						</div>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-3">
-			<a href="com_patient.php">
+			<a href="bank.php">
 				<div class="panel panel-teal panel-widget">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -77,7 +92,7 @@ include("header.php");
 							<div class="large">
 
 							</div>
-							<div class="text-muted">Completed</div>
+							<div class="text-muted">Bank</div>
 						</div>
 					</div>
 				</div>
@@ -85,7 +100,7 @@ include("header.php");
 			</div>
 			
 			<div class="col-xs-12 col-md-6 col-lg-3">
-			<a href="donor.php">
+			<a href="productshow.php">
 				<div class="panel panel-red panel-widget">
 					<div class="row no-padding">
 						<div class="col-sm-3 col-lg-5 widget-left">
@@ -93,15 +108,15 @@ include("header.php");
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
 							<div class="large">
-
+                                <?php echo $pro;?>
                             </div>
-							<div class="text-muted">Donors</div>
+							<div class="text-muted">Product</div>
 						</div>
 					</div>
 				</div>
 			</div></a>
 		</div>
-		
+
 		<!---
 		Rejected
 		-->
@@ -124,8 +139,8 @@ include("header.php");
 			</div></a>
 		</div>
 		</div>
-		
-		
+
+
 		
 
 		<!--/.row-->

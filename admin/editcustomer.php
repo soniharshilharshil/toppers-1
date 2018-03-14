@@ -12,7 +12,7 @@ $cid=$_REQUEST['cust_id'];
 if($_POST)
 {
 
-        $str = "Update register_master set cust_username='" . $_POST['cust_username'] . "',cust_email='" . $_POST['cust_email'] . "',gender='" . $_POST['gender'] . "',cust_mob='" . $_POST['cust_mob'] . "',reg_date='" . $_POST['date'] . "' where cust_id=$cid";
+        $str = "Update customer_master set cust_username='" . $_POST['cust_username'] . "',cust_email='" . $_POST['cust_email'] . "',gender='" . $_POST['gender'] . "',cust_mob='" . $_POST['cust_mob'] . "',reg_date='" . $_POST['date'] . "' where cust_id=$cid";
         $result = mysql_query($str);
         if ($result) {
             echo "<script type='text/javascript'>alert('Record Updated...!')</script>";
@@ -24,7 +24,7 @@ if($_POST)
 
 
 }
-$sql = "SELECT * FROM register_master where cust_id=$cid";
+$sql = "SELECT * FROM customer_master where cust_id=$cid";
 $result = mysql_query($sql);
 $no=1;
 if ($result) {

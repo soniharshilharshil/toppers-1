@@ -1,3 +1,13 @@
+<?php
+session_start();
+$amt=$_SESSION['finalamt'];
+
+$amount=($amt*100);
+
+?>
+
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -85,12 +95,7 @@
     </nav>
     <header id="gtco-header" class="gtco-cover gtco-cover-xssmall" role="banner" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
-        <div class="gtco-container">
-            <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
 
-                </div>
-            </div>
     </header>
 
     <div id="gtco-products">
@@ -108,12 +113,27 @@
 
     <div class="row row-pb-md">
         <div class="col-md-6 col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+            <form action="test.php" method="POST">
 
-            <form action="Online.php">
-                <input type="submit" value="Online" Name="Online" class="btn btn-primary btn-lg">
+                <!-- Note that the amount is in paise = 50 INR -->
+                <script
+                        src="https://checkout.razorpay.com/v1/checkout.js"
+                        data-key="rzp_test_LYZxM8n9SsEsPt"
+                        data-amount="<?php echo $amount; ?>"
 
+                        data-name="Merchant Name"
+                        data-description="Purchase Description"
+                        data-image="https://your-awesome-site.com/your_logo.jpg"
+                        data-prefill.name="Vaibhav Shah"
+                        data-prefill.email="support@razorpay.com"
+                        data-theme.color="#F37254"
+                ></script>
+
+                <input type="hidden" value="hidden element" class="btn btn-primary btn-lg" name="hidden">
             </form>
+<br>
             <form action="confirm.php"> <input type="submit" value="Cash on Shop" Name="Cash on shop" class="btn btn-primary btn-lg"></form>
+            <br>
             <form action="selectdatetime.php"><input type="submit" value="Back" Name="Back" class="btn btn-primary btn-lg"></form>
 
         </div>

@@ -1,21 +1,17 @@
 <?php
-include("header1.php");
+session_start();
+$conn=mysqli_connect("localhost","root","","toppers");
 
-if(isset($_POST))
-{
+$sql="SELECT * from product_master  ";
+$result=mysqli_query($conn,$sql);
 
-    $sql = "SELECT * FROM product_master where status=1 ORDER BY product_id ASC";
+If(mysqli_num_rows($result)>0) {
 
-    $result=mysql_query($sql);
-    if($result) {
-       $row=mysql_fetch_array($result);
-            $img=$row["product_img_url"];
-    }
-
-
+while($row=mysqli_fetch_assoc($result)) {
 }
-?>
 
+
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -95,7 +91,43 @@ if(isset($_POST))
                         </li>
                         <li><a href="education.php">Academic</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+                            include_once ("database/db_connection.php");
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="vieworder.php">View Order</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="#modal1"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
                     </ul>
                 </div>
             </div>
@@ -106,7 +138,7 @@ if(isset($_POST))
         <div class="gtco-container">
         </div>
     </header>
-
+<form method="POST"></form>
 
     <div id="gtco-history" class="gtco-section border-bottom animate-box">
         <div class="gtco-container">
@@ -117,142 +149,40 @@ if(isset($_POST))
                 </div>
             </div>
             <div class="div-trending-block">
-                <div class="txt-trending txt-subcat" style="text-transform:uppercase;">Our Categories</div>
+                <div class="txt-trending txt-subcat" style="text-transform:uppercase;">Our product</div>
             </div>
 
 
             </div>
-                    <div class="col-md-3" >
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img  src="<?php echo$img;?>" />
-                        </div>
-                            <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Conditioners</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/sampoo3.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Hair And Scalp Treatments</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/sampoo4.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Hair Oil</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/sampoo5.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Serum</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/condisner.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Sprays And Gels</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/condisner1.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Others</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/condisner3.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Cleanser</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/1.jpg" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Cream</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/2.jpg" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                            <!--<div class="div-prod-title-subcat">Eye Care</div>-->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/3.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="beardo.php">
-                    <div class="div-product-item-subcat">
-                        <div class="div-product-img-subcat" align="center">
-                            <img src="images/product/5.png" width="100%"/>
-                        </div>
-                        <div class="product-overlay">
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    <?php
+                    $sql="SELECT * from product_master";
+                    $result=mysqli_query($conn,$sql);
+
+                    If(mysqli_num_rows($result)>0)
+                    {
+                        while($row=mysqli_fetch_assoc($result))
+                        {
+                            $img=$row["product_img_url"];
+                            $productid=$row["product_id"];
+
+                      echo "<div class=\"col-md-3\" >
+              <a href=\"beardo.php?product_id=".$productid."\">
+                    <div class=\"div-product-item-subcat\" >
+                        <div class=\"div-product-img-subcat\" align = \"center\" >
+                            <img  width='100%' height='50%' src =$img / >
+                        </div >
+                    </div >
+                </a >
+            </div >";}?>
+
+
+
         </div>
+    <?php
+
+    }
+    }
+    ?>
     </div>
     <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
@@ -347,3 +277,4 @@ if(isset($_POST))
 
 </body>
 </html>
+

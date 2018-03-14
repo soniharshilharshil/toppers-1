@@ -79,170 +79,19 @@
             echo"active";
         }else{echo"";}?>"><a href="index.php">
                 <svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg>Dashboard</a></li>
-        <li class="
-		<?php
-
-        if($url=='customer.php')
-        {
-            echo"active";
-        }elseif($url=='rej.php')
-        {
-            echo"active";
-        }
-        elseif($url=='newcase.php')
-        {
-            echo"active";
-        }
-        elseif($url=='patient_view.php')
-        {
-            echo"active";
-        }elseif($url=='editcase.php')
-        {
-            echo"active";
-        }elseif($url=='com_patient.php')
-        {echo"active";
-        }
-        else
-        {
-            echo"";
-        }?>">
+        <li class="">
             <a href="customer.php"><i class="fa fa-user fa-lg"></i>Customer</a></li>
-        <li class="
-			<?php
-        if($url=='donor.php')
-        {
-            echo"active";
-        }
-        elseif($url=='newdonor.php')
-        {
-            echo"active";
-        }elseif($url=='editdonor.php')
-        {
-            echo"active";
-        }
-        else{
-            echo"";
-        }?>"><a href="donor.php"> <i class="fa fa-users fa-lg"></i>	Product</a></li>
-        <li class="
+        <li class="	"><a href="productshow.php"> <i class="fa fa-users fa-lg"></i>	Product</a></li>
+        <li class=""><a href="appointment.php"><i class="fa fa-money fa-lg"></i>	Appointment</a></li>
+        <li class=""><a href="serviceshow.php"><i class="fa fa-plus-square fa-lg"></i>	Services</a></li>
 
-			<?php
-        if($url=='donation.php')
-        {
-            echo"active";
-        }
-        elseif($url=='patient_details.php')
-        {
-            echo"active";
-        }elseif($url=='newdonation.php')
-        {
-            echo"active";
-        }elseif($url=='editdonation.php')
-        {
-            echo"active";
-        }
-        else{
-            echo"";
-        }
-        ?>"><a href="donation.php"><i class="fa fa-money fa-lg"></i>	Appointment</a></li>
-        <li class="
+        <li class=""><a href="enroll.php"><i class="fa fa-user-plus fa-lg"></i>	Enrollment</a></li>
+        <li class=""><a href="offer.php"><i class="fa fa-money fa-lg"></i> Offers</a></li>
 
-			<?php
-        if($url=='hospitals.php')
-        {
-            echo"active";
-        }
-        elseif($url=='newhospital.php')
-        {
-            echo"active";
-        }elseif($url=='hospital_details.php')
-        {
-            echo"active";
-        }elseif($url=='editdoctor.php')
-        {
-            echo"active";
-        }elseif($url=='edithospital.php')
-        {
-            echo"active";
-        }elseif($url=='newdoctor.php')
-        {
-            echo"active";
-        }
-        else{
-            echo"";
-        }
-        ?>"><a href="hospitals.php"><i class="fa fa-plus-square fa-lg"></i>	Services</a></li>
+        <li class=""><a href="courseshow.php"><i class="fa fa-user-plus fa-lg"></i>Course</a></li>
+        <li class=""><a href="bank.php"><i class="fa fa-bank fa-lg"></i>	Bank</a></li>
 
-        <li class="<?php
-        if($url=='patient_request.php')
-        {
-            echo"active";
-        }elseif($url=='patient_request_view.php')
-        {
-            echo"active";
-        }
-        else {echo"";}
-
-        ?>"><a href="enroll.php"><i class="fa fa-user-plus fa-lg"></i>	Enrollment</a></li>
-        <li class="<?php
-        if($url=='bank.php')
-        {
-            echo"active";
-        }elseif($url=='bank_details.php')
-        {
-            echo"active";
-        }elseif($url=='deposite.php')
-        {
-            echo"active";
-        }elseif($url=='doctorpayment.php')
-        {
-            echo"active";
-        }elseif($url=='editdeposite.php')
-        {
-            echo"active";
-        }elseif($url=='editdoctorpayment.php')
-        {
-            echo"active";
-        }elseif($url=='newbank.php')
-        {
-            echo"active";
-        }
-        else{
-            echo"";
-        }
-        ?>"><a href="bank.php"><i class="fa fa-bank fa-lg"></i>	Bank</a></li>
-
-        <li class="<?php
-        if($url=='patient_reports.php')
-        {
-            echo"active";
-        }elseif($url=='donor_report.php')
-        {
-            echo"active";
-        }elseif($url=='doctor_report.php')
-        {
-            echo"active";
-        }elseif($url=='statement1.php')
-        {
-            echo"active";
-        }elseif($url=='account.php')
-        {
-            echo"active";
-        }
-        elseif($url=='fundreport.php')
-        {
-            echo"active";
-        }elseif($url=='funds.php')
-        {
-            echo"active";
-        }elseif($url=='fund.php')
-        {
-            echo"active";
-        }else {
-            echo"";
-        }
-
-
-        ?>"><a href="account.php"><i class="fa  fa-calculator fa-lg"></i>Report</a></li>
+        <li class=""><a href="report.php"><i class="fa  fa-calculator fa-lg"></i>Report</a></li>
 
     </ul>
 

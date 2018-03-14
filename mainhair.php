@@ -1,12 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: JAY RAJPUTANA
- * Date: 14/2/18
- * Time: 10:01 AM
- */
-?>
-<?php
+
+$conn=mysqli_connect("localhost","root","","toppers");
+
+$sql="SELECT * from course_details";
+$result=mysqli_query($conn,$sql);
+
+If(mysqli_num_rows($result)>0) {
+
+while($row=mysqli_fetch_assoc($result)) {
+}
+
+
 ?>
 <html>
 <head>
@@ -121,105 +125,47 @@
         <div class="main clearfix" align="center">
 
 
-        <div class="view-all-cointainer">
-        <div class="div-course-item-h" style="">
+    <?php
+    $sql="SELECT * from course_details where type_id=1 ";
+    $result=mysqli_query($conn,$sql);
 
-            <div class="div-course-img-h">
-                <img src="images/selecthair.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+    If(mysqli_num_rows($result)>0)
+    {
+        while($row=mysqli_fetch_assoc($result)) {
+            $name = $row["course_name"];
+            $img=$row["course_img"];
+            $courseid=$row["course_id"];
+            echo "
+
+        <div class=\"view-all-cointainer\">
+        <div class=\"div-course-item-h\" style=\"\">
+
+            <div class=\"div-course-img-h\">
+                <img src=$img alt=\"Courses\" width=\"100%\" height=\"100%\" style=\"border-top-left-radius:0.3em;border-top-right-radius:0.3em;\" />
             </div>
 
-            <div class="div-course-detail-h">
-                <div class="div-course-name-h">Foundation Hair Dressing Male to Female</div>
-                <div class="div-course-desc-h"></div>
+            <div class=\"div-course-detail-h\">
+                <div class=\"div-course-name-h\">$name</div>
+                <div class=\"div-course-desc-h\"></div>
             </div>
 
-            <div class="read-more-cat">
-                <a href="foundation_male.php">
-                    <div class="readMoreItem">
+            <div class=\"read-more-cat\">
+                 <a href=\"foundation_male.php?course_id=".$courseid."\">
+                    <div class=\"readMoreItem\">
                         Read More
                     </div>
                 </a>
             </div>
-        </div>
-        <div class="div-course-item-h" style="">
-
-            <div class="div-course-img-h">
-                <img src="images/selecthair.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
             </div>
+           </div>
 
-            <div class="div-course-detail-h">
-                <div class="div-course-name-h">Comprehensive Make Up Artistry</div>
-                <div class="div-course-desc-h"></div>
-            </div>
-
-            <div class="read-more-cat">
-                <a href="comprehensive.php">
-                    <div class="readMoreItem">
-                        Read More
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="div-course-item-h" style="">
-
-            <div class="div-course-img-h">
-                <img src="images/selecthair.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-            </div>
-
-            <div class="div-course-detail-h">
-                <div class="div-course-name-h">Foundation Hair Dressing</div>
-                <div class="div-course-desc-h"></div>
-            </div>
-
-            <div class="read-more-cat">
-                <a href="foundation.php">
-                    <div class="readMoreItem">
-                        Read More
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="div-course-item-h" style="margin-right: 0px !important;">
-
-            <div class="div-course-img-h">
-                <img src="images/selecthair.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-            </div>
-
-            <div class="div-course-detail-h">
-                <div class="div-course-name-h">Styling</div>
-                <div class="div-course-desc-h"></div>
-            </div>
-
-            <div class="read-more-cat">
-                <a href="styling.php">
-                    <div class="readMoreItem">
-                        Read More
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="div-course-item-h" style="">
-
-            <div class="div-course-img-h">
-                <img src="images/selecthair.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-            </div>
-
-            <div class="div-course-detail-h">
-                <div class="div-course-name-h">Barbering</div>
-                <div class="div-course-desc-h"></div>
-            </div>
-
-            <div class="read-more-cat">
-                <a href="barbering.php">
-                    <div class="readMoreItem">
-                        Read More
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        </div>
+        ";
+        }
+        ?>
     </div>
+        <?PHP
+        }}
+        ?>
 
 
 

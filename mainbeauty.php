@@ -1,12 +1,21 @@
 <?php
+
+$conn=mysqli_connect("localhost","root","","toppers");
+
+$sql="SELECT * from course_details";
+$result=mysqli_query($conn,$sql);
+
+If(mysqli_num_rows($result)>0) {
+
+while($row=mysqli_fetch_assoc($result)) {
+}
+
 /**
  * Created by PhpStorm.
  * User: JAY RAJPUTANA
  * Date: 14/2/18
  * Time: 10:01 AM
  */
-?>
-<?php
 ?>
 <html>
 <head>
@@ -122,83 +131,48 @@
         <div class="main clearfix" align="center">
 
 
-<div class="div-course-item-h" style="">
+    <?php
+    $sql="SELECT * from course_details where type_id=2 ";
+    $result=mysqli_query($conn,$sql);
 
-    <div class="div-course-img-h">
-        <img src="images/0d55637e-923d-400e-901a-1fe2e12e88fa.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-    </div>
+    If(mysqli_num_rows($result)>0)
+    {
+        while($row=mysqli_fetch_assoc($result)) {
+            $name = $row["course_name"];
+            $img=$row["course_img"];
+            $courseid=$row["course_id"];
+            echo "
 
-    <div class="div-course-detail-h">
-        <div class="div-course-name-h">CIDESCO</div>
-        <div class="div-course-desc-h"></div>
-    </div>
+        <div class=\"view-all-cointainer\">
+        <div class=\"div-course-item-h\" style=\"\">
 
-    <div class="read-more-cat">
-        <a href="cidesco.php">
-            <div class="readMoreItem">
-                Read More
+            <div class=\"div-course-img-h\">
+                <img src=$img alt=\"Courses\" width=\"100%\" height=\"100%\" style=\"border-top-left-radius:0.3em;border-top-right-radius:0.3em;\" />
             </div>
-        </a>
-    </div>
-</div>
-<div class="div-course-item-h" style="">
 
-    <div class="div-course-img-h">
-        <img src="images/0d55637e-923d-400e-901a-1fe2e12e88fa.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-    </div>
-
-    <div class="div-course-detail-h">
-        <div class="div-course-name-h">CIBTAC</div>
-        <div class="div-course-desc-h"></div>
-    </div>
-
-    <div class="read-more-cat">
-        <a href="cibtac.php">
-            <div class="readMoreItem">
-                Read More
+            <div class=\"div-course-detail-h\">
+                <div class=\"div-course-name-h\">$name</div>
+                <div class=\"div-course-desc-h\"></div>
             </div>
-        </a>
-    </div>
-</div>
-<div class="div-course-item-h" style="margin-right: 0px !important;">
 
-    <div class="div-course-img-h">
-        <img src="images/0d55637e-923d-400e-901a-1fe2e12e88fa.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-    </div>
-
-    <div class="div-course-detail-h">
-        <div class="div-course-name-h">Basic Beauty Course</div>
-        <div class="div-course-desc-h"></div>
-    </div>
-
-    <div class="read-more-cat">
-        <a href="basicbeauty.php">
-            <div class="readMoreItem">
-                Read More
+            <div class=\"read-more-cat\">
+                 <a href=\"foundation_male.php?course_id=".$courseid."\">
+                    <div class=\"readMoreItem\">
+                        Read More
+                    </div>
+                </a>
             </div>
-        </a>
-    </div>
-</div>
-<div class="div-course-item-h" style="">
-
-    <div class="div-course-img-h">
-        <img src="images/0d55637e-923d-400e-901a-1fe2e12e88fa.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-    </div>
-
-    <div class="div-course-detail-h">
-        <div class="div-course-name-h">Hands and Feet Care</div>
-        <div class="div-course-desc-h"></div>
-    </div>
-
-    <div class="read-more-cat">
-        <a href="handfeet.php">
-            <div class="readMoreItem">
-                Read More
             </div>
-        </a>
+           </div>
+
+        ";
+        }
+        ?>
     </div>
-</div>
-</div>
+        <?PHP
+        }}
+        ?>
+
 
 
 </body>

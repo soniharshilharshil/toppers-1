@@ -1,4 +1,33 @@
+<?php
+session_start();
+
+include_once ("database/db_connection.php");
+$corid=$_SESSION['course_id'];
+echo $corid;
+$sql="select * from course_details where course_id='".$corid."'";
+$result=mysqli_query($con,$sql);
+$row=mysqli_fetch_assoc($result);
+$corname=$row['course_name'];
+
+echo "asdf";
+if(isset($_POST['Enroll']))
+{
+    echo "Hello";
+   // $sql="insert into enroll_details (enroll_name,enroll_mobile,enroll_email,course_id,enroll_msg) VALUES('". $_POST ['name']."','". $_POST ['mob']."','". $_POST ['email']."','". $corid."','". $_POST ['msg']."',)";
+    $result=mysqli_query($con,$sql);
+    if($result)
+    {
+        echo "saved";
+    }
+    else
+    {
+        echo "error";
+    }
+}
+?>
+
 <!DOCTYPE HTML>
+
 
 <html>
 
@@ -110,59 +139,53 @@
         <div class="gtco-container">
             <div class="row row-pb-md">
                 <div class="col-md-6 animate-box">
-                    <h3>Get In Touch</h3>
-                    <form action="#">
+                    <h3>Enrollment</h3>
+                    <form action="enroll.php">
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="name">Name</label>
-                                <input type="text" id="name" class="form-control" placeholder="Your firstname">
+                                <input type="text" name="name" class="form-control" placeholder="Your firstname">
                             </div>
 
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="sr-only" for="email">Email</label>
-                                <input type="text" id="email" class="form-control" placeholder="Your email address">
+
+                                <input type="text" name="email" class="form-control" placeholder="Your email address">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="email">mobile</label>
+                                <input type="text" name="mob" class="form-control" placeholder="Your email address">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="subject">Subject</label>
-                                <input type="text" id="subject" class="form-control" disabled placeholder="Foundation Hair Dressing Male to Female">
+                                <input type="text" name="subject" class="form-control" placeholder="enter subject name" disabled value="<?php echo $corname?>";
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="sr-only" for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
+                                <textarea name="message"  cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary btn-lg">
+                            <input type="submit" value="Enroll" name="Enroll" class="btn btn-primary btn-lg">
                         </div>
 
                     </form>
                 </div>
-                <div class="col-md-5 col-md-push-1 animate-box">
 
-                    <div class="gtco-contact-info">
-                        <h3>Contact Information</h3>
-                        <ul>
-                            <li class="address">Shop No:1,2, <br> First Floor, <br> Near Vegitable market gohil tower <br> Madhapar-Bhuj 370020</li>
-                            <li class="phone"><a href="tel://1234567920">+91 8264686566</a></li>
-                            <li class="email"><a href="mailto:info@toppers.com">info@toppers.com</a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
             </div>
         </div>
-
-    </div>
+   </div>
 
 
 

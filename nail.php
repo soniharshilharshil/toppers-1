@@ -1,19 +1,25 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Vaibhav Shah
- * Date: 1/24/2018
- * Time: 11:00 AM
- */
+session_start();
+include_once("database/db_connection.php");
+if(!isset($_SESSION["login"]))
+{
+    echo"<script>window.open('index.php','_self')</script>";
+}
+
+
+$conn=mysqli_connect("localhost","root","","toppers");
+
+$sql="SELECT * from service_master";
+$result=mysqli_query($conn,$sql);
+
+If(mysqli_num_rows($result)>0) {
+
+while($row=mysqli_fetch_assoc($result)) {
+}
+
 ?>
-<?php
-/**
- * Created by PhpStorm.
- * User: Vaibhav Shah
- * Date: 1/24/2018
- * Time: 10:59 AM
- */
-?>
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -85,7 +91,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+                    <div id="gtco-logo"><a href="index.php">Toppers Salon</a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -94,24 +100,52 @@
                         <li class="has-dropdown active">
                             <a href="services.php">Services</a>
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="nail.php">Nail</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="services.php">Facial</a></li>
                             </ul>
                         </li>
                         <li><a href="education.php">Academic</a></li>>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
+
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+                            include_once ("database/db_connection.php");
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="vieworder.php">View Order</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="#modal1"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
 
 
                     </ul>
@@ -194,6 +228,29 @@
                                 <div class="table-responsive service-table">
                                     <table class="table" style="border:1px #ddd solid">
                                         <tbody>
+                                        <tr>
+                                            <td>Service Name</td>
+                                            <td>Service Time</td>
+                                            <td>Service Rate</td>
+
+                                        </tr>
+                                        <?php
+                                        $sql="SELECT * from service_master where type_id=5";
+                                        $result=mysqli_query($conn,$sql);
+
+
+                                        If(mysqli_num_rows($result)>0) {
+
+                                        while($row=mysqli_fetch_assoc($result))
+                                        {
+                                            $serviceid=$row['service_id'];
+
+                                            echo "<tr class='chaman'><td>".$row["service_name"]."</td><td>".$row["service_time"]."&nbsp min</td><td>".$row["service_prise"]."</td> <td class=\"cart-button-container\"><a href=\"picktime.php?service_id=".$serviceid."\"><img src=\"images/services/book.png\" /></td></tr></tr>";
+                                            echo "</div>";
+
+                                        }
+                                        ?>
+
 
                                         <!--<tr>
                                             <td class="td1">
@@ -202,10 +259,9 @@
                                             <td class="td2">45 min</td>
                                             <td class="td3">&#x20B9; 1093</td>
                                             <td class="cart-button-container"><img src="http://www.belitaindia.com/img/add-to-cart-button.png" alt="add to cart" class="add-to-cart-button" /></td>
-                                        </tr>-->
+                                        </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                Glistening Dew
                                             </td>
                                             <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 909</td>
@@ -214,15 +270,22 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Eternal Hydro
                                             </td>
                                             <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 909</td>
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
                                         <tr>
+
+
+                    If(mysqli_num_rows($result)>0)
+                    {
+                            while($row=mysqli_fetch_assoc($result))
+                            {
+                                $img=$row["product_img_url"];
+                                echo "<img src=$img />";
+                            }?>
                                             <td class="td1 chaman">
-                                                Pureza
                                             </td>
                                             <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 909</td>
@@ -230,15 +293,13 @@
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                Enlighten
                                             </td>
-                                            <td class="td2 chaman">45 min</td>
+    00                                         <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 1449</td>
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                Oxygeneting
                                             </td>
                                             <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 1576</td>
@@ -246,7 +307,6 @@
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                All Bright
                                             </td>
                                             <td class="td2 chaman">60 min</td>
                                             <td class="td3 chaman">&#x20B9; 1817</td>
@@ -254,7 +314,6 @@
                                         </tr>
                                         <tr>
                                             <td class="td1 chaman">
-                                                White Tea
                                             </td>
                                             <td class="td2 chaman">45 min</td>
                                             <td class="td3 chaman">&#x20B9; 1817</td>
@@ -263,7 +322,6 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                GloVite
                                             </td>
                                             <td class="td2 chaman">80 min</td>
                                             <td class="td3 chaman">&#x20B9; 2116</td>
@@ -272,7 +330,6 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Vitalift
                                             </td>
                                             <td class="td2 chaman">60 min</td>
                                             <td class="td3 chaman">&#x20B9; 2657</td>
@@ -281,7 +338,6 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Magnetic Wellbeing
                                             </td>
                                             <td class="td2 chaman">60 min</td>
                                             <td class="td3 chaman">&#x20B9; 2714</td>
@@ -290,7 +346,6 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Velvet
                                             </td>
                                             <td class="td2 chaman">60 min</td>
                                             <td class="td3 chaman">&#x20B9; 3025</td>
@@ -299,7 +354,6 @@
 
                                         <tr>
                                             <td class="td1 chaman">
-                                                Marine Magic Mask
                                             </td>
                                             <td class="td2 chaman">30 min</td>
                                             <td class="td3 chaman">&#x20B9; 1150</td>
@@ -313,16 +367,24 @@
                                             <td class="td3 chaman">&#x20B9; 1380</td>
                                             <td class="cart-button-container"><img src="images/services/book.png"/></td>
                                         </tr>
+    -->
 
 
 
                                         </tbody>
                                     </table>
                                 </div>
+
+                                <?php
+
+                                }
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
 

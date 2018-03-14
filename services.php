@@ -1,5 +1,10 @@
-
 <?php
+session_start();
+include_once("database/db_connection.php");
+if(!isset($_SESSION["login"]))
+{
+    echo"<script>window.open('index.php','_self')</script>";
+}
 
 $conn=mysqli_connect("localhost","root","","toppers");
 
@@ -84,7 +89,7 @@ If(mysqli_num_rows($result)>0) {
             </div>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+                    <div id="gtco-logo"><a href="index.php">Toppers Salon</a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -93,24 +98,49 @@ If(mysqli_num_rows($result)>0) {
                         <li class="has-dropdown active">
                             <a href="services.php">Services</a>
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="nail.php">Nail</a></li>
+                                <li><a href="skin.php">Skin</a></li>
+                                <li><a href="services.php">Facial</a></li>
                             </ul>
                         </li>
-                        <li><a href="education.php">Academic</a></li>>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="education.php">Academic</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="#modal1"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
 
 
                     </ul>
@@ -146,7 +176,7 @@ If(mysqli_num_rows($result)>0) {
                     <div class="row">
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href = 'services.php'">
-                                <img src="images/services/facial-s.jpg" alt="belita hover" class="img-responsive"/>
+                                <img src="images/services/facial-s-hover.jpg" alt="belita hover" class="img-responsive"/>
                                 <p class="p1"><a href="services.php">Facial</a></p>
                             </div>
                         </div>
@@ -164,7 +194,7 @@ If(mysqli_num_rows($result)>0) {
                         </div>
                         <div class="col-md-2">
                             <div class="box-services1" onClick="location.href =     'waxing.php'">
-                                <img src="images/services/body-s-hover.jpg" alt="body care" class="img-responsive imgHoverable"/>
+                                <img src="images/services/body-s.jpg" alt="body care" class="img-responsive imgHoverable"/>
                                 <p><a href="waxing.php">Waxing</a></p>
                             </div>
                         </div>
@@ -194,20 +224,26 @@ If(mysqli_num_rows($result)>0) {
                                 <div class="table-responsive service-table">
                                     <table class="table" style="border:1px #ddd solid">
                                         <tbody>
+                                        <tr>
+                                            <td>Service Name</td>
+                                            <td>Service Time</td>
+                                            <td>Service Rate</td>
+
+                                        </tr>
                                     <?php
-                                    $sql="SELECT * from service_master";
+                                    $sql="SELECT * from service_master where type_id=1";
                                     $result=mysqli_query($conn,$sql);
+
 
                                     If(mysqli_num_rows($result)>0) {
 
-                                        echo "<div class='cbaman'>";
                                     while($row=mysqli_fetch_assoc($result))
                                     {
-                                        echo "<div class='chaman'>";
-                                        echo "<tr><td>".$row["service_name"]."</td><td>".$row["service_time"]."</td><td>".$row["service_prise"]."</td> <td class=\"cart-button-container\"><img src=\"images/services/book.png\" /></td></tr>";
-echo "</div>";
-                                        }
+                                        $serviceid=$row['service_id'];
 
+                                        echo "<tr class='chaman'><td>".$row["service_name"]."</td><td>".$row["service_time"]."&nbsp min</td><td>".$row["service_prise"]."</td> <td class=\"cart-button-container\"><a href=\"picktime.php?service_id=".$serviceid."\"><img src=\"images/services/book.png\" /></td></tr></tr>";
+                                        echo "</div>";
+                                    }
                                     ?>
 
 
@@ -235,6 +271,15 @@ echo "</div>";
                                             <td class="cart-button-container"><img src="images/services/book.png" /></td>
                                         </tr>
                                         <tr>
+
+
+                    If(mysqli_num_rows($result)>0)
+                    {
+                            while($row=mysqli_fetch_assoc($result))
+                            {
+                                $img=$row["product_img_url"];
+                                echo "<img src=$img />";
+                            }?>
                                             <td class="td1 chaman">
                                             </td>
                                             <td class="td2 chaman">45 min</td>

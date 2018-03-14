@@ -18,7 +18,7 @@ include("db.php");
 
 if($_POST)
 {
-    if(!mysql_query("delete from register_master where cust_id = '".$_POST['id']."'"))
+    if(!mysql_query("delete from customer_master where cust_id = '".$_POST['id']."'"))
     {
         echo "<script type='text/javascript'>alert('Erorr..!')</script>";
     }
@@ -31,7 +31,7 @@ if($_POST)
 
 
 
-$sql = "SELECT cust_id,cust_username,cust_email,cust_mob,gender,reg_date FROM register_master where status=1 ORDER BY cust_id ASC";
+$sql = "SELECT cust_id,cust_username,cust_email,cust_mob,gender,reg_date FROM customer_master where status=1 ORDER BY cust_id ASC";
 $result = mysql_query($sql);
 $no=1;
 if ($result) {
@@ -67,7 +67,7 @@ if ($result) {
 
                     if($_POST)
                     {
-                        if(!mysql_query("delete from register_master where cust_id = '".$_POST['id']."'"))
+                        if(!mysql_query("delete from customer_master where cust_id = '".$_POST['id']."'"))
                         {
                             echo "<script type='text/javascript'>alert('Erorr..!')</script>";
                         }
@@ -80,7 +80,7 @@ if ($result) {
 
 
 
-                    $sql = "SELECT  cust_id,cust_username,cust_email,cust_mob,gender,reg_date FROM register_master where status=1 ORDER BY cust_id ASC";
+                    $sql = "SELECT  cust_id,cust_username,cust_email,cust_mob,gender,reg_date FROM customer_master where status=1 ORDER BY cust_id ASC";
                     $result = mysql_query($sql);
                     $no=1;
                     if ($result) {

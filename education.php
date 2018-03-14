@@ -1,3 +1,7 @@
+<?php
+session_start();
+include_once ("database/db_connection.php");
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -60,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.php">Toppers Family's World <em>.</em></a></div>
+                    <div id="gtco-logo"><a href="index.php">Toppers Salon</a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -69,15 +73,52 @@
                         <li class="has-dropdown">
                             <a href="services.php">Services</a>
                             <ul class="dropdown">
-                                <li><a href="book.php">Hair</a></li>
-                                <li><a href="book.php">Nail</a></li>
-                                <li><a href="book.php">Spa</a></li>
-                                <li><a href="book.php">Color</a></li>
+                                <li><a href="hair.php">Hair</a></li>
+                                <li><a href="nail.php">Nail</a></li>
+                                <li><a href="services.php">Facial</a></li>
+                                <li><a href="skin.php">Skin</a></li>
                             </ul>
                         </li>
                         <li><a href="education.php">Academic</a></li>
                         <li><a href="contact.php">Contact</a></li>
-                        <li><a href="login.php">Login</a></li>
+                        <li><?php
+                            if(isset($_SESSION["login"]))
+                            {
+                            $email = $_SESSION["login"];
+
+                            $sql = "SELECT * FROM customer_master WHERE cust_email='" . $email . "'";
+                            $result = mysqli_query($con,$sql);
+                            $row=mysqli_fetch_assoc($result);
+                            $name=$row["cust_username"];
+                            ?>
+
+                        <li class="has-dropdown">
+                            <a href="services.php">  <?php echo $name;?>
+                                <span class="caret"></span></a>
+
+                            <ul class="dropdown">
+                                <li><a href="profile.php">Profile</a></li>
+                                <li><a href="chpassword.php">Change Password</a></li>
+                                <li><a href="vieworder.php.php">View Order</a></li>
+                                <li><a href="logout.php">Log Out</a></li>
+
+                            </ul></li>
+
+                        <?php
+                        }
+                        else
+                        {
+
+
+                            ?>
+                            <a href="index.php"  data-toggle="modal"> Login / signup</a></li>
+
+                            <?php
+
+                        }
+
+                        ?>
+
                     </ul>
                 </div>
             </div>
@@ -201,7 +242,7 @@
                                 <div class="div-counter-block col-md-4" style="padding-top:2%;">
                                     <div class="div-course-item" style="">
                                         <div class="div-course-img">
-                                            <img src="images/0d55637e-923d-400e-901a-1fe2e12e88fa.jpg" width="50%" height="40%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            <img src="images/beauty.jpg" width="50%" height="40%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
                                         </div>
                                         <div class="div-course-name">Beauty courses</div>
                                         <div align="center">
@@ -217,7 +258,7 @@
                                 <div class="div-counter-block col-md-4" style="padding-top:2%;">
                                     <div class="div-course-item" style="">
                                         <div class="div-course-img">
-                                            <img src="images/079029ec-23df-4a05-bd25-db9e77e72498.jpg " width="50%" height="40%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
+                                            <img src="images/makeup.jpg " width="50%" height="40%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
                                         </div>
                                         <div class="div-course-name">Makeup courses</div>
                                         <div align="center">

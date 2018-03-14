@@ -1,12 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: JAY RAJPUTANA
- * Date: 18/2/18
- * Time: 8:56 AM
- */
-?>
-<?php
+
+$conn=mysqli_connect("localhost","root","","toppers");
+
+$sql="SELECT * from course_details";
+$result=mysqli_query($conn,$sql);
+
+If(mysqli_num_rows($result)>0) {
+
+while($row=mysqli_fetch_assoc($result)) {
+}
+
 /**
  * Created by PhpStorm.
  * User: JAY RAJPUTANA
@@ -14,8 +17,7 @@
  * Time: 10:01 AM
  */
 ?>
-<?php
-?>
+<html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -126,31 +128,48 @@
         </div>
     </div>
 
-    <div class="mainwrap rand-935" style="background:#F5F5F5 url() 50% 0;background-size:cover;border-top:0px solid #E4E4E4;border-bottom:0px solid #fff; text-align:center;min-height:200px;padding-top:30px; padding-bottom:0%">
-        <div class="main clearfix" align="center">
 
-            <div class="div-course-item-h" style="">
+    <?php
+    $sql="SELECT * from course_details where type_id=3 ";
+    $result=mysqli_query($conn,$sql);
 
-                <div class="div-course-img-h">
-                    <img src="images/079029ec-23df-4a05-bd25-db9e77e72498.jpg" alt="Courses" width="100%" height="100%" style="border-top-left-radius:0.3em;border-top-right-radius:0.3em;" />
-                </div>
+    If(mysqli_num_rows($result)>0)
+    {
+    while($row=mysqli_fetch_assoc($result)) {
+        $name = $row["course_name"];
+        $img=$row["course_img"];
+        $courseid=$row["course_id"];
+        echo "
 
-                <div class="div-course-detail-h">
-                    <div class="div-course-name-h">Cromprehensive Make Up Artistry</div>
-                    <div class="div-course-desc-h"></div>
-                </div>
+        <div class=\"view-all-cointainer\">
+        <div class=\"div-course-item-h\" style=\"\">
 
-                <div class="read-more-cat">
-                    <a href="comprehensive.php">
-                        <div class="readMoreItem">
-                            Read More
-                        </div>
-                    </a>
-                </div>
+            <div class=\"div-course-img-h\">
+                <img src=$img alt=\"Courses\" width=\"100%\" height=\"100%\" style=\"border-top-left-radius:0.3em;border-top-right-radius:0.3em;\" />
             </div>
-        </div>
-        </div>
-        </div>
+
+            <div class=\"div-course-detail-h\">
+                <div class=\"div-course-name-h\">$name</div>
+                <div class=\"div-course-desc-h\"></div>
+            </div>
+
+            <div class=\"read-more-cat\">
+                 <a href=\"foundation_male.php?course_id=".$courseid."\">
+                    <div class=\"readMoreItem\">
+                        Read More
+                    </div>
+                </a>
+            </div>
+            </div>
+           </div>
+
+        ";
+    }
+    ?>
+</div>
+<?PHP
+}}
+?>
 
 
 </body>
